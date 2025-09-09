@@ -1,0 +1,129 @@
+# =====================
+# OGÓLNE
+# =====================
+*.log
+*.log.*
+*.out
+*.err
+*.pid
+*.seed
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+
+# =====================
+# SYSTEMOWE
+# =====================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# =====================
+# GIT / IDE
+# =====================
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# =====================
+# BUILD / BINARIA
+# =====================
+build/
+bin/
+out/
+dist/
+release/
+debug/
+obj/
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.lib
+*.exp
+*.pdb
+*.idb
+*.ilk
+*.exe
+*.app
+*.msi
+
+# =====================
+# CMAKE / AUTOTOOLS
+# =====================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+configure
+config.log
+config.status
+libtool
+ltmain.sh
+aclocal.m4
+autom4te.cache/
+*.m4
+*.la
+
+# =====================
+# QT / KLIENT
+# =====================
+*.pro.user
+*.qmake.stash
+*.qmake.cache
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*.qmlc
+*.jsc
+*.qtds
+
+# =====================
+# NODE / FRONTEND (jeśli istnieje GUI webowe)
+# =====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# =====================
+# PYTHON (jeśli masz skrypty)
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# =====================
+# TESTY / COVERAGE
+# =====================
+coverage/
+*.gcda
+*.gcno
+*.gcov
+lcov-report/
+
+# =====================
+# WALUTY / SPECYFICZNE
+# =====================
+wallet.dat
+*.wallet
+*.keys
+*.addr
+peers.dat
+*.db
+*.ldb
+*.sqlite*
+debug.log
+db.log

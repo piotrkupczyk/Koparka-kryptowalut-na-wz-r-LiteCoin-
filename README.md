@@ -1,0 +1,1 @@
+Kryptowaluta na wzór LiteCoina

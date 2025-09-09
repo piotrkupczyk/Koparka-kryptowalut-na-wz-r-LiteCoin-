@@ -1,0 +1,994 @@
+2025-04-06 18:11:24 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2025-04-06 18:11:24 Spkcoin version v0.8.7.4-gc1e46ab3a90bd-beta ()
+2025-04-06 18:11:24 Using OpenSSL version OpenSSL 1.0.2n  7 Dec 2017
+2025-04-06 18:11:24 Default data directory /home/student/.spkcoin
+2025-04-06 18:11:24 Using data directory /home/student/.spkcoin
+2025-04-06 18:11:24 Using at most 125 connections (1024 file descriptors available)
+2025-04-06 18:11:24 Using 4 threads for script verification
+2025-04-06 18:11:24 init message: Weryfikacja portfela...
+2025-04-06 18:11:24 dbenv.open LogDir=/home/student/.spkcoin/database ErrorFile=/home/student/.spkcoin/db.log
+2025-04-06 18:11:25 Bound to [::]:2333
+2025-04-06 18:11:25 Bound to 0.0.0.0:2333
+2025-04-06 18:11:25 init message: Ładowanie indeksu bloku...
+2025-04-06 18:11:25 Opening LevelDB in /home/student/.spkcoin/blocks/index
+2025-04-06 18:11:25 Opened LevelDB successfully
+2025-04-06 18:11:25 Opening LevelDB in /home/student/.spkcoin/chainstate
+2025-04-06 18:11:25 Opened LevelDB successfully
+2025-04-06 18:11:25 LoadBlockIndexDB(): last block file = 0
+2025-04-06 18:11:25 LoadBlockIndexDB(): transaction index disabled
+2025-04-06 18:11:25 Initializing databases...
+2025-04-06 18:11:25 a1659b3db5266cdcb6bf6a8b1954b4e54c1ff9188ce64b9f92dc07b784542a22
+2025-04-06 18:11:25 a1659b3db5266cdcb6bf6a8b1954b4e54c1ff9188ce64b9f92dc07b784542a22
+2025-04-06 18:11:25 db1c16d3602687e106eb21042df78f4a1ce8e5fa90e8adbd789d1e53281f2fe1
+2025-04-06 18:11:25 CBlock(hash=a1659b3db5266cdcb6bf6a8b1954b4e54c1ff9188ce64b9f92dc07b784542a22, input=010000000000000000000000000000000000000000000000000000000000000000000000e12f1f28531e9d78bdade890fae5e81c4a8ff72d0421eb06e1872660d3161cdb519acd67f0ff0f1ef2791e00, PoW=0000064261b8bf0bd9afbc0d6f80557db4324a11f3b90868d074ff2c2ee4d544, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=db1c16d3602687e106eb21042df78f4a1ce8e5fa90e8adbd789d1e53281f2fe1, nTime=1741527633, nBits=1e0ffff0, nNonce=1997298, vtx=1)
+2025-04-06 18:11:25   CTransaction(hash=db1c16d3602687e106eb21042df78f4a1ce8e5fa90e8adbd789d1e53281f2fe1, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d0104284b727970746f6772616669612054492050696f7472204b7570637a796b20323032352e30332e3039)
+    CTxOut(nValue=10.00000000, scriptPubKey=0427db3cb06b4d5f3492e8f9daf0b0)
+  vMerkleTree: db1c16d3602687e106eb21042df78f4a1ce8e5fa90e8adbd789d1e53281f2fe1 
+2025-04-06 18:11:25 Pre-allocating up to position 0x1000000 in blk00000.dat
+2025-04-06 18:11:25 SetBestChain: new best=a1659b3db5266cdcb6bf6a8b1954b4e54c1ff9188ce64b9f92dc07b784542a22  height=0  log2_work=20,000022  tx=1  date=2025-03-09 13:40:33 progress=0,034261
+2025-04-06 18:11:25 init message: Weryfikacja bloków...
+2025-04-06 18:11:25  block index              57ms
+2025-04-06 18:11:25 init message: Wczytywanie portfela...
+2025-04-06 18:11:25 nFileVersion = 80704
+2025-04-06 18:11:25 Performing wallet upgrade to 60000
+2025-04-06 18:11:25 keypool added key 1, size=1
+2025-04-06 18:11:25 keypool added key 2, size=2
+2025-04-06 18:11:25 keypool added key 3, size=3
+2025-04-06 18:11:25 keypool added key 4, size=4
+2025-04-06 18:11:25 keypool added key 5, size=5
+2025-04-06 18:11:25 keypool added key 6, size=6
+2025-04-06 18:11:25 keypool added key 7, size=7
+2025-04-06 18:11:25 keypool added key 8, size=8
+2025-04-06 18:11:25 keypool added key 9, size=9
+2025-04-06 18:11:25 keypool added key 10, size=10
+2025-04-06 18:11:25 keypool added key 11, size=11
+2025-04-06 18:11:25 keypool added key 12, size=12
+2025-04-06 18:11:25 keypool added key 13, size=13
+2025-04-06 18:11:25 keypool added key 14, size=14
+2025-04-06 18:11:25 keypool added key 15, size=15
+2025-04-06 18:11:25 keypool added key 16, size=16
+2025-04-06 18:11:25 keypool added key 17, size=17
+2025-04-06 18:11:25 keypool added key 18, size=18
+2025-04-06 18:11:25 keypool added key 19, size=19
+2025-04-06 18:11:25 keypool added key 20, size=20
+2025-04-06 18:11:25 keypool added key 21, size=21
+2025-04-06 18:11:25 keypool added key 22, size=22
+2025-04-06 18:11:25 keypool added key 23, size=23
+2025-04-06 18:11:25 keypool added key 24, size=24
+2025-04-06 18:11:25 keypool added key 25, size=25
+2025-04-06 18:11:25 keypool added key 26, size=26
+2025-04-06 18:11:25 keypool added key 27, size=27
+2025-04-06 18:11:25 keypool added key 28, size=28
+2025-04-06 18:11:25 keypool added key 29, size=29
+2025-04-06 18:11:25 keypool added key 30, size=30
+2025-04-06 18:11:25 keypool added key 31, size=31
+2025-04-06 18:11:25 keypool added key 32, size=32
+2025-04-06 18:11:25 keypool added key 33, size=33
+2025-04-06 18:11:25 keypool added key 34, size=34
+2025-04-06 18:11:25 keypool added key 35, size=35
+2025-04-06 18:11:25 keypool added key 36, size=36
+2025-04-06 18:11:25 keypool added key 37, size=37
+2025-04-06 18:11:25 keypool added key 38, size=38
+2025-04-06 18:11:25 keypool added key 39, size=39
+2025-04-06 18:11:25 keypool added key 40, size=40
+2025-04-06 18:11:25 keypool added key 41, size=41
+2025-04-06 18:11:25 keypool added key 42, size=42
+2025-04-06 18:11:25 keypool added key 43, size=43
+2025-04-06 18:11:25 keypool added key 44, size=44
+2025-04-06 18:11:25 keypool added key 45, size=45
+2025-04-06 18:11:25 keypool added key 46, size=46
+2025-04-06 18:11:25 keypool added key 47, size=47
+2025-04-06 18:11:25 keypool added key 48, size=48
+2025-04-06 18:11:25 keypool added key 49, size=49
+2025-04-06 18:11:25 keypool added key 50, size=50
+2025-04-06 18:11:25 keypool added key 51, size=51
+2025-04-06 18:11:25 keypool added key 52, size=52
+2025-04-06 18:11:25 keypool added key 53, size=53
+2025-04-06 18:11:25 keypool added key 54, size=54
+2025-04-06 18:11:25 keypool added key 55, size=55
+2025-04-06 18:11:25 keypool added key 56, size=56
+2025-04-06 18:11:25 keypool added key 57, size=57
+2025-04-06 18:11:25 keypool added key 58, size=58
+2025-04-06 18:11:25 keypool added key 59, size=59
+2025-04-06 18:11:25 keypool added key 60, size=60
+2025-04-06 18:11:25 keypool added key 61, size=61
+2025-04-06 18:11:25 keypool added key 62, size=62
+2025-04-06 18:11:25 keypool added key 63, size=63
+2025-04-06 18:11:25 keypool added key 64, size=64
+2025-04-06 18:11:25 keypool added key 65, size=65
+2025-04-06 18:11:25 keypool added key 66, size=66
+2025-04-06 18:11:25 keypool added key 67, size=67
+2025-04-06 18:11:25 keypool added key 68, size=68
+2025-04-06 18:11:25 keypool added key 69, size=69
+2025-04-06 18:11:25 keypool added key 70, size=70
+2025-04-06 18:11:25 keypool added key 71, size=71
+2025-04-06 18:11:25 keypool added key 72, size=72
+2025-04-06 18:11:25 keypool added key 73, size=73
+2025-04-06 18:11:25 keypool added key 74, size=74
+2025-04-06 18:11:25 keypool added key 75, size=75
+2025-04-06 18:11:25 keypool added key 76, size=76
+2025-04-06 18:11:25 keypool added key 77, size=77
+2025-04-06 18:11:25 keypool added key 78, size=78
+2025-04-06 18:11:25 keypool added key 79, size=79
+2025-04-06 18:11:25 keypool added key 80, size=80
+2025-04-06 18:11:25 keypool added key 81, size=81
+2025-04-06 18:11:25 keypool added key 82, size=82
+2025-04-06 18:11:25 keypool added key 83, size=83
+2025-04-06 18:11:25 keypool added key 84, size=84
+2025-04-06 18:11:25 keypool added key 85, size=85
+2025-04-06 18:11:25 keypool added key 86, size=86
+2025-04-06 18:11:25 keypool added key 87, size=87
+2025-04-06 18:11:25 keypool added key 88, size=88
+2025-04-06 18:11:25 keypool added key 89, size=89
+2025-04-06 18:11:25 keypool added key 90, size=90
+2025-04-06 18:11:25 keypool added key 91, size=91
+2025-04-06 18:11:25 keypool added key 92, size=92
+2025-04-06 18:11:25 keypool added key 93, size=93
+2025-04-06 18:11:25 keypool added key 94, size=94
+2025-04-06 18:11:25 keypool added key 95, size=95
+2025-04-06 18:11:25 keypool added key 96, size=96
+2025-04-06 18:11:25 keypool added key 97, size=97
+2025-04-06 18:11:25 keypool added key 98, size=98
+2025-04-06 18:11:25 keypool added key 99, size=99
+2025-04-06 18:11:26 keypool added key 100, size=100
+2025-04-06 18:11:26 keypool added key 101, size=101
+2025-04-06 18:11:26 keypool reserve 1
+2025-04-06 18:11:26 keypool keep 1
+2025-04-06 18:11:26  wallet                  981ms
+2025-04-06 18:11:26 init message: Wczytywanie adresów...
+2025-04-06 18:11:26 ERROR: CAddrman::Read() : open failed
+2025-04-06 18:11:26 Invalid or missing peers.dat; recreating
+2025-04-06 18:11:26 Loaded 0 addresses from peers.dat  0ms
+2025-04-06 18:11:26 mapBlockIndex.size() = 1
+2025-04-06 18:11:26 nBestHeight = 0
+2025-04-06 18:11:26 setKeyPool.size() = 100
+2025-04-06 18:11:26 mapWallet.size() = 0
+2025-04-06 18:11:26 mapAddressBook.size() = 1
+2025-04-06 18:11:26 connect() failed: 101
+2025-04-06 18:11:26 dnsseed thread start
+2025-04-06 18:11:26 Loading addresses from DNS seeds (could take a while)
+2025-04-06 18:11:26 0 addresses found from DNS seeds
+2025-04-06 18:11:26 dnsseed thread exit
+2025-04-06 18:11:26 upnp thread start
+2025-04-06 18:11:26 ERROR: GetMyExternalIP() : connection to 91.198.22.70:80 failed
+2025-04-06 18:11:26 net thread start
+2025-04-06 18:11:26 addcon thread start
+2025-04-06 18:11:26 opencon thread start
+2025-04-06 18:11:26 trying connection 192.168.56.101:2333 lastseen=456656,4hrs
+2025-04-06 18:11:26 No valid UPnP IGDs found
+2025-04-06 18:11:26 upnp thread exit
+2025-04-06 18:11:26 msghand thread start
+2025-04-06 18:11:26 dumpaddr thread start
+2025-04-06 18:11:26 connected 192.168.56.101:2333
+2025-04-06 18:11:26 send version message: version 70002, blocks=0, us=0.0.0.0:0, them=0.0.0.0:0, peer=192.168.56.101:2333
+2025-04-06 18:11:26 connect() failed: 101
+2025-04-06 18:11:26 ERROR: GetMyExternalIP() : connection to 91.198.22.70:80 failed
+2025-04-06 18:11:26 init message: Wczytywanie zakończone
+2025-04-06 18:11:26 refreshWallet
+2025-04-06 18:11:26 Added time data, samples 2, offset +3 (+0 minutes)
+2025-04-06 18:11:26 receive version message: /Satoshi:0.8.7.4/: version 70002, blocks=0, us=0.0.0.0:0, them=0.0.0.0:0, peer=192.168.56.101:2333
+2025-04-06 18:11:26 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2025-04-06 18:12:19 SpkcoinMiner started
+2025-04-06 18:12:19 keypool added key 102, size=101
+2025-04-06 18:12:19 keypool reserve 2
+2025-04-06 18:12:19 CreateNewBlock(): total size 1000
+2025-04-06 18:12:19 Running SpkcoinMiner with 1 transactions in block (186 bytes)
+2025-04-06 18:12:21 Flushing wallet.dat
+2025-04-06 18:12:21 Flushed wallet.dat 5ms
+2025-04-06 18:12:23 hashmeter      4 khash/s
+2025-04-06 18:13:15 received block 80635f0144cb5235e8b3e134ff9810b88fbe703f7f685068ea491402dbc6b8f4
+2025-04-06 18:13:15 Pre-allocating up to position 0x100000 in rev00000.dat
+2025-04-06 18:13:15 Committing 1 changed transactions to coin database...
+2025-04-06 18:13:15 SetBestChain: new best=80635f0144cb5235e8b3e134ff9810b88fbe703f7f685068ea491402dbc6b8f4  height=1  log2_work=21,000022  tx=2  date=2025-04-06 18:12:59 progress=0,999907
+2025-04-06 18:13:15 ProcessBlock: ACCEPTED
+2025-04-06 18:13:15 CreateNewBlock(): total size 1000
+2025-04-06 18:13:15 Running SpkcoinMiner with 1 transactions in block (186 bytes)
+2025-04-06 18:13:29 received block 96c12b051625b2d25f8db6fabae281a4963c70ab21a0504bd12ce2d79a01e0a7
+2025-04-06 18:13:29 Committing 1 changed transactions to coin database...
+2025-04-06 18:13:29 SetBestChain: new best=96c12b051625b2d25f8db6fabae281a4963c70ab21a0504bd12ce2d79a01e0a7  height=2  log2_work=21,584985  tx=3  date=2025-04-06 18:13:33 progress=1,000015
+2025-04-06 18:13:29 ProcessBlock: ACCEPTED
+2025-04-06 18:13:29 CreateNewBlock(): total size 1000
+2025-04-06 18:13:29 Running SpkcoinMiner with 1 transactions in block (186 bytes)
+2025-04-06 18:13:31 SpkcoinMiner:
+2025-04-06 18:13:31 proof-of-work found  
+  hash: 00000f0950b50fa69306485567480ec1b076195338bc35324c1318ed3bbf12f9  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2025-04-06 18:13:31 CBlock(hash=adde4f074cbb378b3cb7ac9f879c61cdde240de6deafa784294644cebfb772e1, input=02000000a7e0019ad7e22cd14b50a021ab703c96a481e2bafab68d5fd2b22516052bc19665920b651a2b5627e313fb6fd4b68ac602c2ecab9ff3b04f751cf4f7e0bd228a4bc4f267f0ff0f1e75230000, PoW=00000f0950b50fa69306485567480ec1b076195338bc35324c1318ed3bbf12f9, ver=2, hashPrevBlock=96c12b051625b2d25f8db6fabae281a4963c70ab21a0504bd12ce2d79a01e0a7, hashMerkleRoot=8a22bde0f7f41c754fb0f39fabecc202c68ab6d46ffb13e327562b1a650b9265, nTime=1743963211, nBits=1e0ffff0, nNonce=9077, vtx=1)
+2025-04-06 18:13:31   CTransaction(hash=8a22bde0f7f41c754fb0f39fabecc202c68ab6d46ffb13e327562b1a650b9265, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 530101062f503253482f)
+    CTxOut(nValue=10.00000000, scriptPubKey=0214460297e5ba8daf25239fadedaa)
+  vMerkleTree: 8a22bde0f7f41c754fb0f39fabecc202c68ab6d46ffb13e327562b1a650b9265 
+2025-04-06 18:13:31 generated 10.00
+2025-04-06 18:13:31 keypool keep 2
+2025-04-06 18:13:31 AddToWallet 8a22bde0f7f41c754fb0f39fabecc202c68ab6d46ffb13e327562b1a650b9265  new
+2025-04-06 18:13:31 NotifyTransactionChanged 8a22bde0f7f41c754fb0f39fabecc202c68ab6d46ffb13e327562b1a650b9265 status=0
+2025-04-06 18:13:31 updateWallet 8a22bde0f7f41c754fb0f39fabecc202c68ab6d46ffb13e327562b1a650b9265 0
+2025-04-06 18:13:31    inWallet=1 inModel=0 Index=0-0 showTransaction=0 derivedStatus=0
+2025-04-06 18:13:31 Committing 1 changed transactions to coin database...
+2025-04-06 18:13:31 SetBestChain: new best=adde4f074cbb378b3cb7ac9f879c61cdde240de6deafa784294644cebfb772e1  height=3  log2_work=22,000022  tx=4  date=2025-04-06 18:13:31 progress=1,000000
+2025-04-06 18:13:31 ProcessBlock: ACCEPTED
+2025-04-06 18:13:31 keypool added key 103, size=101
+2025-04-06 18:13:31 keypool reserve 3
+2025-04-06 18:13:31 CreateNewBlock(): total size 1000
+2025-04-06 18:13:31 Running SpkcoinMiner with 1 transactions in block (186 bytes)
+2025-04-06 18:13:31 received getdata for: block adde4f074cbb378b3cb7ac9f879c61cdde240de6deafa784294644cebfb772e1
+2025-04-06 18:13:33 Flushing wallet.dat
+2025-04-06 18:13:33 Flushed wallet.dat 6ms
+2025-04-06 18:15:23 SpkcoinMiner:
+2025-04-06 18:15:23 proof-of-work found  
+  hash: 00000f1a68b87dfa1d8672daa3afd8c469ff8ee0ebaeb893a16212c6441dcc57  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2025-04-06 18:15:23 CBlock(hash=c87f63c843aa9750ee27e882605c8604f61db3a31df4221d6c904122c9f49672, input=02000000e172b7bfce44462984a7afdee60d24decd619c879facb73c8b37bb4c074fdead05a8702475a179c2621ae838f74a7b4d4d1488fcae39ddd80298bc612ed407e4bbc4f267f0ff0f1e099a0600, PoW=00000f1a68b87dfa1d8672daa3afd8c469ff8ee0ebaeb893a16212c6441dcc57, ver=2, hashPrevBlock=adde4f074cbb378b3cb7ac9f879c61cdde240de6deafa784294644cebfb772e1, hashMerkleRoot=e407d42e61bc9802d8dd39aefc88144d4d7b4af738e81a62c279a1752470a805, nTime=1743963323, nBits=1e0ffff0, nNonce=432649, vtx=1)
+2025-04-06 18:15:23   CTransaction(hash=e407d42e61bc9802d8dd39aefc88144d4d7b4af738e81a62c279a1752470a805, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 540101062f503253482f)
+    CTxOut(nValue=10.00000000, scriptPubKey=037ba0269886aa6254e1dc7a5c1533)
+  vMerkleTree: e407d42e61bc9802d8dd39aefc88144d4d7b4af738e81a62c279a1752470a805 
+2025-04-06 18:15:23 generated 10.00
+2025-04-06 18:15:23 keypool keep 3
+2025-04-06 18:15:23 AddToWallet e407d42e61bc9802d8dd39aefc88144d4d7b4af738e81a62c279a1752470a805  new
+2025-04-06 18:15:23 NotifyTransactionChanged e407d42e61bc9802d8dd39aefc88144d4d7b4af738e81a62c279a1752470a805 status=0
+2025-04-06 18:15:23 updateWallet e407d42e61bc9802d8dd39aefc88144d4d7b4af738e81a62c279a1752470a805 0
+2025-04-06 18:15:23    inWallet=1 inModel=0 Index=0-0 showTransaction=0 derivedStatus=0
+2025-04-06 18:15:23 Committing 1 changed transactions to coin database...
+2025-04-06 18:15:23 SetBestChain: new best=c87f63c843aa9750ee27e882605c8604f61db3a31df4221d6c904122c9f49672  height=4  log2_work=22,32195  tx=5  date=2025-04-06 18:15:23 progress=1,000000
+2025-04-06 18:15:23 NotifyTransactionChanged 8a22bde0f7f41c754fb0f39fabecc202c68ab6d46ffb13e327562b1a650b9265 status=1
+2025-04-06 18:15:23 ProcessBlock: ACCEPTED
+2025-04-06 18:15:23 updateWallet 8a22bde0f7f41c754fb0f39fabecc202c68ab6d46ffb13e327562b1a650b9265 1
+2025-04-06 18:15:23 keypool added key 104, size=101
+2025-04-06 18:15:23 keypool reserve 4
+2025-04-06 18:15:23    inWallet=1 inModel=0 Index=0-0 showTransaction=1 derivedStatus=0
+2025-04-06 18:15:23 CreateNewBlock(): total size 1000
+2025-04-06 18:15:23 Running SpkcoinMiner with 1 transactions in block (186 bytes)
+2025-04-06 18:15:23 received getdata for: block c87f63c843aa9750ee27e882605c8604f61db3a31df4221d6c904122c9f49672
+2025-04-06 18:15:25 Flushing wallet.dat
+2025-04-06 18:15:25 Flushed wallet.dat 7ms
+2025-04-06 18:15:32 socket closed
+2025-04-06 18:15:32 disconnecting node 192.168.56.101:2333
+2025-04-06 18:17:26 trying connection 192.168.56.101:2333 lastseen=456656,5hrs
+2025-04-06 18:17:26 connected 192.168.56.101:2333
+2025-04-06 18:17:26 send version message: version 70002, blocks=4, us=0.0.0.0:0, them=0.0.0.0:0, peer=192.168.56.101:2333
+2025-04-06 18:17:27 receive version message: /Satoshi:0.8.7.4/: version 70002, blocks=4, us=0.0.0.0:0, them=0.0.0.0:0, peer=192.168.56.101:2333
+2025-04-06 18:17:27 CreateNewBlock(): total size 1000
+2025-04-06 18:17:27 Running SpkcoinMiner with 1 transactions in block (186 bytes)
+2025-04-06 18:17:27 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2025-04-06 18:18:21 SpkcoinMiner:
+2025-04-06 18:18:21 proof-of-work found  
+  hash: 000001c96d1bef18875b15aa7d7602b8c731e840668468d281fd1fcdfaf951b6  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2025-04-06 18:18:21 CBlock(hash=404830c968da4a0d6a5fd10247962896eb42940969f2ce838a068e3f062f0c24, input=020000007296f4c92241906c1d22f41da3b31df604865c6082e827ee5097aa43c8637fc8a219fc801be8f62ac3daf804a3da06afa285a171b8afaea7ce1e39df50fe24026dc5f267f0ff0f1e6b7f0300, PoW=000001c96d1bef18875b15aa7d7602b8c731e840668468d281fd1fcdfaf951b6, ver=2, hashPrevBlock=c87f63c843aa9750ee27e882605c8604f61db3a31df4221d6c904122c9f49672, hashMerkleRoot=0224fe50df391ecea7aeafb871a185a2af06daa304f8dac32af6e81b80fc19a2, nTime=1743963501, nBits=1e0ffff0, nNonce=229227, vtx=1)
+2025-04-06 18:18:21   CTransaction(hash=0224fe50df391ecea7aeafb871a185a2af06daa304f8dac32af6e81b80fc19a2, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 550102062f503253482f)
+    CTxOut(nValue=10.00000000, scriptPubKey=02961b9c7dea769a57fcb10be1faea)
+  vMerkleTree: 0224fe50df391ecea7aeafb871a185a2af06daa304f8dac32af6e81b80fc19a2 
+2025-04-06 18:18:21 generated 10.00
+2025-04-06 18:18:21 keypool keep 4
+2025-04-06 18:18:21 AddToWallet 0224fe50df391ecea7aeafb871a185a2af06daa304f8dac32af6e81b80fc19a2  new
+2025-04-06 18:18:21 NotifyTransactionChanged 0224fe50df391ecea7aeafb871a185a2af06daa304f8dac32af6e81b80fc19a2 status=0
+2025-04-06 18:18:21 updateWallet 0224fe50df391ecea7aeafb871a185a2af06daa304f8dac32af6e81b80fc19a2 0
+2025-04-06 18:18:21    inWallet=1 inModel=0 Index=0-0 showTransaction=0 derivedStatus=0
+2025-04-06 18:18:21 Committing 1 changed transactions to coin database...
+2025-04-06 18:18:21 SetBestChain: new best=404830c968da4a0d6a5fd10247962896eb42940969f2ce838a068e3f062f0c24  height=5  log2_work=22,584985  tx=6  date=2025-04-06 18:18:21 progress=1,000000
+2025-04-06 18:18:21 NotifyTransactionChanged e407d42e61bc9802d8dd39aefc88144d4d7b4af738e81a62c279a1752470a805 status=1
+2025-04-06 18:18:21 ProcessBlock: ACCEPTED
+2025-04-06 18:18:21 updateWallet e407d42e61bc9802d8dd39aefc88144d4d7b4af738e81a62c279a1752470a805 1
+2025-04-06 18:18:21 keypool added key 105, size=101
+2025-04-06 18:18:21 keypool reserve 5
+2025-04-06 18:18:21 CreateNewBlock(): total size 1000
+2025-04-06 18:18:21 Running SpkcoinMiner with 1 transactions in block (186 bytes)
+2025-04-06 18:18:21    inWallet=1 inModel=0 Index=1-1 showTransaction=1 derivedStatus=0
+2025-04-06 18:18:22 received getdata for: block 404830c968da4a0d6a5fd10247962896eb42940969f2ce838a068e3f062f0c24
+2025-04-06 18:18:23 Flushing wallet.dat
+2025-04-06 18:18:23 Flushed wallet.dat 7ms
+2025-04-06 18:19:50 socket closed
+2025-04-06 18:19:50 disconnecting node 192.168.56.101:2333
+2025-04-06 18:19:52 addcon thread interrupt
+2025-04-06 18:19:52 net thread interrupt
+2025-04-06 18:19:52 dumpaddr thread stop
+2025-04-06 18:19:52 opencon thread interrupt
+2025-04-06 18:19:52 msghand thread interrupt
+2025-04-06 18:19:52 Shutdown : In progress...
+2025-04-06 18:19:52 Flush(false)
+2025-04-06 18:19:52 DBFlush(false) ended               0ms
+2025-04-06 18:19:52 StopNode()
+2025-04-06 18:19:52 SpkcoinMiner terminated
+2025-04-06 18:19:52 keypool return 5
+2025-04-06 18:19:52 Flushed 0 addresses to peers.dat  7ms
+2025-04-06 18:19:52 Committing 0 changed transactions to coin database...
+2025-04-06 18:19:52 Flush(true)
+2025-04-06 18:19:52 wallet.dat refcount=0
+2025-04-06 18:19:52 wallet.dat checkpoint
+2025-04-06 18:19:52 wallet.dat detach
+2025-04-06 18:19:52 wallet.dat closed
+2025-04-06 18:19:52 DBFlush(true) ended               7ms
+2025-04-06 18:19:52 Shutdown : done
+2025-04-06 18:20:04 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2025-04-06 18:20:04 Spkcoin version v0.8.7.4-gc1e46ab3a90bd-beta ()
+2025-04-06 18:20:04 Using OpenSSL version OpenSSL 1.0.2n  7 Dec 2017
+2025-04-06 18:20:04 Default data directory /home/student/.spkcoin
+2025-04-06 18:20:04 Using data directory /home/student/.spkcoin
+2025-04-06 18:20:04 Using at most 125 connections (1024 file descriptors available)
+2025-04-06 18:20:04 Using 4 threads for script verification
+2025-04-06 18:20:04 init message: Weryfikacja portfela...
+2025-04-06 18:20:04 dbenv.open LogDir=/home/student/.spkcoin/database ErrorFile=/home/student/.spkcoin/db.log
+2025-04-06 18:20:04 Bound to [::]:2333
+2025-04-06 18:20:04 Bound to 0.0.0.0:2333
+2025-04-06 18:20:04 init message: Ładowanie indeksu bloku...
+2025-04-06 18:20:04 Opening LevelDB in /home/student/.spkcoin/blocks/index
+2025-04-06 18:20:04 Opened LevelDB successfully
+2025-04-06 18:20:04 Opening LevelDB in /home/student/.spkcoin/chainstate
+2025-04-06 18:20:04 Opened LevelDB successfully
+2025-04-06 18:20:04 LoadBlockIndexDB(): last block file = 0
+2025-04-06 18:20:04 LoadBlockIndexDB(): last block file info: CBlockFileInfo(blocks=6, size=1234, heights=0...5, time=2025-03-09...2025-04-06)
+2025-04-06 18:20:04 LoadBlockIndexDB(): transaction index disabled
+2025-04-06 18:20:04 LoadBlockIndexDB(): hashBestChain=404830c968da4a0d6a5fd10247962896eb42940969f2ce838a068e3f062f0c24  height=5 date=2025-04-06 18:18:21
+2025-04-06 18:20:04 init message: Weryfikacja bloków...
+2025-04-06 18:20:04 Verifying last 5 blocks at level 3
+2025-04-06 18:20:04 No coin database inconsistencies in last 5 blocks (5 transactions)
+2025-04-06 18:20:04  block index              47ms
+2025-04-06 18:20:04 init message: Wczytywanie portfela...
+2025-04-06 18:20:04 nFileVersion = 80704
+2025-04-06 18:20:04  wallet                  166ms
+2025-04-06 18:20:04 init message: Wczytywanie adresów...
+2025-04-06 18:20:04 Loaded 0 addresses from peers.dat  0ms
+2025-04-06 18:20:04 mapBlockIndex.size() = 6
+2025-04-06 18:20:04 nBestHeight = 5
+2025-04-06 18:20:04 setKeyPool.size() = 101
+2025-04-06 18:20:04 mapWallet.size() = 3
+2025-04-06 18:20:04 mapAddressBook.size() = 1
+2025-04-06 18:20:04 dnsseed thread start
+2025-04-06 18:20:04 Loading addresses from DNS seeds (could take a while)
+2025-04-06 18:20:04 0 addresses found from DNS seeds
+2025-04-06 18:20:04 dnsseed thread exit
+2025-04-06 18:20:04 opencon thread start
+2025-04-06 18:20:04 addcon thread start
+2025-04-06 18:20:04 dumpaddr thread start
+2025-04-06 18:20:04 upnp thread start
+2025-04-06 18:20:04 connect() failed: 101
+2025-04-06 18:20:04 ERROR: GetMyExternalIP() : connection to 91.198.22.70:80 failed
+2025-04-06 18:20:04 msghand thread start
+2025-04-06 18:20:04 net thread start
+2025-04-06 18:20:04 init message: Wczytywanie zakończone
+2025-04-06 18:20:04 trying connection 192.168.56.101:2333 lastseen=456656,6hrs
+2025-04-06 18:20:04 No valid UPnP IGDs found
+2025-04-06 18:20:04 upnp thread exit
+2025-04-06 18:20:04 connected 192.168.56.101:2333
+2025-04-06 18:20:04 send version message: version 70002, blocks=5, us=0.0.0.0:0, them=0.0.0.0:0, peer=192.168.56.101:2333
+2025-04-06 18:20:04 refreshWallet
+2025-04-06 18:20:04 connect() failed: 101
+2025-04-06 18:20:04 ERROR: GetMyExternalIP() : connection to 91.198.22.70:80 failed
+2025-04-06 18:20:05 Added time data, samples 2, offset +4 (+0 minutes)
+2025-04-06 18:20:05 receive version message: /Satoshi:0.8.7.4/: version 70002, blocks=5, us=0.0.0.0:0, them=0.0.0.0:0, peer=192.168.56.101:2333
+2025-04-06 18:20:05 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2025-04-06 18:21:49 dumpaddr thread stop
+2025-04-06 18:21:49 addcon thread interrupt
+2025-04-06 18:21:49 opencon thread interrupt
+2025-04-06 18:21:49 msghand thread interrupt
+2025-04-06 18:21:49 net thread interrupt
+2025-04-06 18:21:49 Shutdown : In progress...
+2025-04-06 18:21:49 Flush(false)
+2025-04-06 18:21:49 wallet.dat refcount=0
+2025-04-06 18:21:49 wallet.dat checkpoint
+2025-04-06 18:21:49 wallet.dat detach
+2025-04-06 18:21:49 wallet.dat closed
+2025-04-06 18:21:49 DBFlush(false) ended               9ms
+2025-04-06 18:21:49 StopNode()
+2025-04-06 18:21:49 Flushed 0 addresses to peers.dat  5ms
+2025-04-06 18:21:49 Committing 5 changed transactions to coin database...
+2025-04-06 18:21:49 Flush(true)
+2025-04-06 18:21:49 wallet.dat refcount=0
+2025-04-06 18:21:49 wallet.dat checkpoint
+2025-04-06 18:21:49 wallet.dat detach
+2025-04-06 18:21:49 wallet.dat closed
+2025-04-06 18:21:49 DBFlush(true) ended               6ms
+2025-04-06 18:21:49 Shutdown : done
+2025-04-06 18:21:55 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2025-04-06 18:21:55 Spkcoin version v0.8.7.4-gc1e46ab3a90bd-beta ()
+2025-04-06 18:21:55 Using OpenSSL version OpenSSL 1.0.2n  7 Dec 2017
+2025-04-06 18:21:55 Default data directory /home/student/.spkcoin
+2025-04-06 18:21:55 Using data directory /home/student/.spkcoin
+2025-04-06 18:21:55 Using at most 125 connections (1024 file descriptors available)
+2025-04-06 18:21:55 Using 4 threads for script verification
+2025-04-06 18:21:55 init message: Weryfikacja portfela...
+2025-04-06 18:21:55 dbenv.open LogDir=/home/student/.spkcoin/database ErrorFile=/home/student/.spkcoin/db.log
+2025-04-06 18:21:55 Bound to [::]:2333
+2025-04-06 18:21:55 Bound to 0.0.0.0:2333
+2025-04-06 18:21:55 init message: Ładowanie indeksu bloku...
+2025-04-06 18:21:55 Opening LevelDB in /home/student/.spkcoin/blocks/index
+2025-04-06 18:21:55 Opened LevelDB successfully
+2025-04-06 18:21:55 Opening LevelDB in /home/student/.spkcoin/chainstate
+2025-04-06 18:21:55 Opened LevelDB successfully
+2025-04-06 18:21:55 LoadBlockIndexDB(): last block file = 0
+2025-04-06 18:21:55 LoadBlockIndexDB(): last block file info: CBlockFileInfo(blocks=6, size=1234, heights=0...5, time=2025-03-09...2025-04-06)
+2025-04-06 18:21:55 LoadBlockIndexDB(): transaction index disabled
+2025-04-06 18:21:55 LoadBlockIndexDB(): hashBestChain=404830c968da4a0d6a5fd10247962896eb42940969f2ce838a068e3f062f0c24  height=5 date=2025-04-06 18:18:21
+2025-04-06 18:21:55 init message: Weryfikacja bloków...
+2025-04-06 18:21:55 Verifying last 5 blocks at level 3
+2025-04-06 18:21:55 No coin database inconsistencies in last 5 blocks (5 transactions)
+2025-04-06 18:21:55  block index              52ms
+2025-04-06 18:21:55 init message: Wczytywanie portfela...
+2025-04-06 18:21:55 nFileVersion = 80704
+2025-04-06 18:21:55  wallet                  174ms
+2025-04-06 18:21:55 init message: Wczytywanie adresów...
+2025-04-06 18:21:55 Loaded 0 addresses from peers.dat  0ms
+2025-04-06 18:21:55 mapBlockIndex.size() = 6
+2025-04-06 18:21:55 nBestHeight = 5
+2025-04-06 18:21:55 setKeyPool.size() = 101
+2025-04-06 18:21:55 mapWallet.size() = 3
+2025-04-06 18:21:55 mapAddressBook.size() = 1
+2025-04-06 18:21:55 connect() failed: 101
+2025-04-06 18:21:55 dnsseed thread start
+2025-04-06 18:21:55 Loading addresses from DNS seeds (could take a while)
+2025-04-06 18:21:55 0 addresses found from DNS seeds
+2025-04-06 18:21:55 dnsseed thread exit
+2025-04-06 18:21:55 upnp thread start
+2025-04-06 18:21:55 net thread start
+2025-04-06 18:21:55 No valid UPnP IGDs found
+2025-04-06 18:21:55 upnp thread exit
+2025-04-06 18:21:55 dumpaddr thread start
+2025-04-06 18:21:55 ERROR: GetMyExternalIP() : connection to 91.198.22.70:80 failed
+2025-04-06 18:21:55 msghand thread start
+2025-04-06 18:21:55 opencon thread start
+2025-04-06 18:21:55 addcon thread start
+2025-04-06 18:21:55 init message: Wczytywanie zakończone
+2025-04-06 18:21:55 trying connection 192.168.56.101:2333 lastseen=456656,6hrs
+2025-04-06 18:21:55 refreshWallet
+2025-04-06 18:21:55 connected 192.168.56.101:2333
+2025-04-06 18:21:55 send version message: version 70002, blocks=5, us=0.0.0.0:0, them=0.0.0.0:0, peer=192.168.56.101:2333
+2025-04-06 18:21:55 connect() failed: 101
+2025-04-06 18:21:55 ERROR: GetMyExternalIP() : connection to 91.198.22.70:80 failed
+2025-04-06 18:21:55 Added time data, samples 2, offset +4 (+0 minutes)
+2025-04-06 18:21:55 receive version message: /Satoshi:0.8.7.4/: version 70002, blocks=5, us=0.0.0.0:0, them=0.0.0.0:0, peer=192.168.56.101:2333
+2025-04-06 18:21:55 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2025-04-06 18:22:50 SpkcoinMiner started
+2025-04-06 18:22:50 keypool reserve 5
+2025-04-06 18:22:50 CreateNewBlock(): total size 1000
+2025-04-06 18:22:50 Running SpkcoinMiner with 1 transactions in block (186 bytes)
+2025-04-06 18:22:54 hashmeter      4 khash/s
+2025-04-06 18:23:39 SpkcoinMiner:
+2025-04-06 18:23:39 proof-of-work found  
+  hash: 000001136067a16f6a9b91e11d8cca3163fa0f983fec088da2bc193455070c33  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2025-04-06 18:23:39 CBlock(hash=68719d5007a9124ebaee900d3e69af7f11a5fb8158dc989863137a61c934c7c1, input=02000000240c2f063f8e068a83cef269099442eb9628964702d15f6a0d4ada68c930484009a6c9b9616499d100f9e8845bed8d917cbb39d17804156fce6da805fdd924e7abc6f267f0ff0f1ebcfa0200, PoW=000001136067a16f6a9b91e11d8cca3163fa0f983fec088da2bc193455070c33, ver=2, hashPrevBlock=404830c968da4a0d6a5fd10247962896eb42940969f2ce838a068e3f062f0c24, hashMerkleRoot=e724d9fd05a86dce6f150478d139bb7c918ded5b84e8f900d1996461b9c9a609, nTime=1743963819, nBits=1e0ffff0, nNonce=195260, vtx=1)
+2025-04-06 18:23:39   CTransaction(hash=e724d9fd05a86dce6f150478d139bb7c918ded5b84e8f900d1996461b9c9a609, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 560101062f503253482f)
+    CTxOut(nValue=10.00000000, scriptPubKey=029cc5ccd9ab85b80a33f691fb3818)
+  vMerkleTree: e724d9fd05a86dce6f150478d139bb7c918ded5b84e8f900d1996461b9c9a609 
+2025-04-06 18:23:39 generated 10.00
+2025-04-06 18:23:39 keypool keep 5
+2025-04-06 18:23:39 AddToWallet e724d9fd05a86dce6f150478d139bb7c918ded5b84e8f900d1996461b9c9a609  new
+2025-04-06 18:23:39 NotifyTransactionChanged e724d9fd05a86dce6f150478d139bb7c918ded5b84e8f900d1996461b9c9a609 status=0
+2025-04-06 18:23:39 updateWallet e724d9fd05a86dce6f150478d139bb7c918ded5b84e8f900d1996461b9c9a609 0
+2025-04-06 18:23:39    inWallet=1 inModel=0 Index=3-3 showTransaction=0 derivedStatus=0
+2025-04-06 18:23:39 Committing 6 changed transactions to coin database...
+2025-04-06 18:23:39 SetBestChain: new best=68719d5007a9124ebaee900d3e69af7f11a5fb8158dc989863137a61c934c7c1  height=6  log2_work=22,807377  tx=7  date=2025-04-06 18:23:39 progress=1,000000
+2025-04-06 18:23:39 ProcessBlock: ACCEPTED
+2025-04-06 18:23:39 keypool added key 106, size=101
+2025-04-06 18:23:39 keypool reserve 6
+2025-04-06 18:23:39 CreateNewBlock(): total size 1000
+2025-04-06 18:23:39 Running SpkcoinMiner with 1 transactions in block (186 bytes)
+2025-04-06 18:23:40 received getdata for: block 68719d5007a9124ebaee900d3e69af7f11a5fb8158dc989863137a61c934c7c1
+2025-04-06 18:23:42 Flushing wallet.dat
+2025-04-06 18:23:42 Flushed wallet.dat 7ms
+2025-04-06 18:26:13 received block 157d6a84fd196231a2fb4887ecdaba238d6d26a3f36ca25bbc6e90de038bb93f
+2025-04-06 18:26:13 Committing 1 changed transactions to coin database...
+2025-04-06 18:26:13 SetBestChain: new best=157d6a84fd196231a2fb4887ecdaba238d6d26a3f36ca25bbc6e90de038bb93f  height=7  log2_work=23,000022  tx=8  date=2025-04-06 18:26:01 progress=0,999983
+2025-04-06 18:26:13 NotifyTransactionChanged e724d9fd05a86dce6f150478d139bb7c918ded5b84e8f900d1996461b9c9a609 status=1
+2025-04-06 18:26:13 ProcessBlock: ACCEPTED
+2025-04-06 18:26:13 updateWallet e724d9fd05a86dce6f150478d139bb7c918ded5b84e8f900d1996461b9c9a609 1
+2025-04-06 18:26:13    inWallet=1 inModel=0 Index=3-3 showTransaction=1 derivedStatus=0
+2025-04-06 18:26:13 CreateNewBlock(): total size 1000
+2025-04-06 18:26:13 Running SpkcoinMiner with 1 transactions in block (186 bytes)
+2025-04-06 18:31:28 SpkcoinMiner:
+2025-04-06 18:31:28 proof-of-work found  
+  hash: 00000b7516b30b4d28a6a272838f7460848bfa2ee6358282fcbbe8dfeb2d9120  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2025-04-06 18:31:28 CBlock(hash=1bafa287da187f0cf5ef2737d36232048fd2cf4c556557f41807856c63183502, input=020000003fb98b03de906ebc5ba26cf3a3266d8d23badaec8748fba2316219fd846a7d154933632055d825aef57fb400aa0245411ec94d995b5601bf06053340c6ed014980c8f267f0ff0f1ecec31100, PoW=00000b7516b30b4d28a6a272838f7460848bfa2ee6358282fcbbe8dfeb2d9120, ver=2, hashPrevBlock=157d6a84fd196231a2fb4887ecdaba238d6d26a3f36ca25bbc6e90de038bb93f, hashMerkleRoot=4901edc640330506bf01565b994dc91e414502aa00b47ff5ae25d85520633349, nTime=1743964288, nBits=1e0ffff0, nNonce=1164238, vtx=1)
+2025-04-06 18:31:28   CTransaction(hash=4901edc640330506bf01565b994dc91e414502aa00b47ff5ae25d85520633349, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 580101062f503253482f)
+    CTxOut(nValue=10.00000000, scriptPubKey=0397722a012405308765ba8eea40d6)
+  vMerkleTree: 4901edc640330506bf01565b994dc91e414502aa00b47ff5ae25d85520633349 
+2025-04-06 18:31:28 generated 10.00
+2025-04-06 18:31:28 keypool keep 6
+2025-04-06 18:31:28 AddToWallet 4901edc640330506bf01565b994dc91e414502aa00b47ff5ae25d85520633349  new
+2025-04-06 18:31:28 NotifyTransactionChanged 4901edc640330506bf01565b994dc91e414502aa00b47ff5ae25d85520633349 status=0
+2025-04-06 18:31:28 updateWallet 4901edc640330506bf01565b994dc91e414502aa00b47ff5ae25d85520633349 0
+2025-04-06 18:31:28    inWallet=1 inModel=0 Index=1-1 showTransaction=0 derivedStatus=0
+2025-04-06 18:31:28 Committing 1 changed transactions to coin database...
+2025-04-06 18:31:28 SetBestChain: new best=1bafa287da187f0cf5ef2737d36232048fd2cf4c556557f41807856c63183502  height=8  log2_work=23,169947  tx=9  date=2025-04-06 18:31:28 progress=1,000000
+2025-04-06 18:31:28 ProcessBlock: ACCEPTED
+2025-04-06 18:31:28 keypool added key 107, size=101
+2025-04-06 18:31:28 keypool reserve 7
+2025-04-06 18:31:28 CreateNewBlock(): total size 1000
+2025-04-06 18:31:28 Running SpkcoinMiner with 1 transactions in block (186 bytes)
+2025-04-06 18:31:29 received getdata for: block 1bafa287da187f0cf5ef2737d36232048fd2cf4c556557f41807856c63183502
+2025-04-06 18:31:31 Flushing wallet.dat
+2025-04-06 18:31:31 Flushed wallet.dat 8ms
+2025-04-06 18:34:22 received block 1ab3cbae1fa5d57c43bd519877c776cc47df35211dbb43a79d74e28d41538a40
+2025-04-06 18:34:22 Committing 1 changed transactions to coin database...
+2025-04-06 18:34:22 SetBestChain: new best=1ab3cbae1fa5d57c43bd519877c776cc47df35211dbb43a79d74e28d41538a40  height=9  log2_work=23,32195  tx=10  date=2025-04-06 18:34:26 progress=1,000005
+2025-04-06 18:34:22 NotifyTransactionChanged 4901edc640330506bf01565b994dc91e414502aa00b47ff5ae25d85520633349 status=1
+2025-04-06 18:34:22 ProcessBlock: ACCEPTED
+2025-04-06 18:34:22 updateWallet 4901edc640330506bf01565b994dc91e414502aa00b47ff5ae25d85520633349 1
+2025-04-06 18:34:22    inWallet=1 inModel=0 Index=1-1 showTransaction=1 derivedStatus=0
+2025-04-06 18:34:22 CreateNewBlock(): total size 1000
+2025-04-06 18:34:22 Running SpkcoinMiner with 1 transactions in block (186 bytes)
+2025-04-06 18:36:55 Flushed 0 addresses to peers.dat  5ms
+2025-04-06 18:37:13 SpkcoinMiner:
+2025-04-06 18:37:13 proof-of-work found  
+  hash: 000007dfbbbcf7a24613ee22e22312c30eb6e5da08720ddf4453d1e2ecd82f2a  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2025-04-06 18:37:13 CBlock(hash=6ba8aa4dbedb7859db408a448d3ace3c525103b3a4b772f232c2efc42a6d648d, input=02000000408a53418de2749da743bb1d2135df47cc76c7779851bd437cd5a51faecbb31a7dac41ad718a3d5e01cb94416a00bcda9642416759a298eb4e1e069d9e2e4fdcd9c9f267f0ff0f1ecf130a00, PoW=000007dfbbbcf7a24613ee22e22312c30eb6e5da08720ddf4453d1e2ecd82f2a, ver=2, hashPrevBlock=1ab3cbae1fa5d57c43bd519877c776cc47df35211dbb43a79d74e28d41538a40, hashMerkleRoot=dc4f2e9e9d061e4eeb98a25967414296dabc006a4194cb015e3d8a71ad41ac7d, nTime=1743964633, nBits=1e0ffff0, nNonce=660431, vtx=1)
+2025-04-06 18:37:13   CTransaction(hash=dc4f2e9e9d061e4eeb98a25967414296dabc006a4194cb015e3d8a71ad41ac7d, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 5a0101062f503253482f)
+    CTxOut(nValue=10.00000000, scriptPubKey=0202d53fd294a189dc56b50f0f4aab)
+  vMerkleTree: dc4f2e9e9d061e4eeb98a25967414296dabc006a4194cb015e3d8a71ad41ac7d 
+2025-04-06 18:37:13 generated 10.00
+2025-04-06 18:37:13 keypool keep 7
+2025-04-06 18:37:13 AddToWallet dc4f2e9e9d061e4eeb98a25967414296dabc006a4194cb015e3d8a71ad41ac7d  new
+2025-04-06 18:37:13 NotifyTransactionChanged dc4f2e9e9d061e4eeb98a25967414296dabc006a4194cb015e3d8a71ad41ac7d status=0
+2025-04-06 18:37:13 updateWallet dc4f2e9e9d061e4eeb98a25967414296dabc006a4194cb015e3d8a71ad41ac7d 0
+2025-04-06 18:37:13    inWallet=1 inModel=0 Index=3-3 showTransaction=0 derivedStatus=0
+2025-04-06 18:37:13 Committing 1 changed transactions to coin database...
+2025-04-06 18:37:13 SetBestChain: new best=6ba8aa4dbedb7859db408a448d3ace3c525103b3a4b772f232c2efc42a6d648d  height=10  log2_work=23,459454  tx=11  date=2025-04-06 18:37:13 progress=1,000000
+2025-04-06 18:37:13 ProcessBlock: ACCEPTED
+2025-04-06 18:37:13 keypool added key 108, size=101
+2025-04-06 18:37:13 keypool reserve 8
+2025-04-06 18:37:13 CreateNewBlock(): total size 1000
+2025-04-06 18:37:13 Running SpkcoinMiner with 1 transactions in block (186 bytes)
+2025-04-06 18:37:13 received getdata for: block 6ba8aa4dbedb7859db408a448d3ace3c525103b3a4b772f232c2efc42a6d648d
+2025-04-06 18:37:15 Flushing wallet.dat
+2025-04-06 18:37:15 Flushed wallet.dat 10ms
+2025-04-06 18:37:44 SpkcoinMiner:
+2025-04-06 18:37:44 proof-of-work found  
+  hash: 00000ba4489e1e5b6e73b45eaf876ea1ac283884900b63f56661834da4db93de  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2025-04-06 18:37:44 CBlock(hash=eec663ba8b81c2387f7c5e9b0ea9887a04b170c95b010bc00e6abda3aa2bec98, input=020000008d646d2ac4efc232f272b7a4b30351523cce3a8d448a40db5978dbbe4daaa86bdb278a1033b39c22c1c8f22be71b1112767653ec37901d3da6473c158f475bccf8c9f267f0ff0f1ebee50100, PoW=00000ba4489e1e5b6e73b45eaf876ea1ac283884900b63f56661834da4db93de, ver=2, hashPrevBlock=6ba8aa4dbedb7859db408a448d3ace3c525103b3a4b772f232c2efc42a6d648d, hashMerkleRoot=cc5b478f153c47a63d1d9037ec53767612111be72bf2c8c1229cb333108a27db, nTime=1743964664, nBits=1e0ffff0, nNonce=124350, vtx=1)
+2025-04-06 18:37:44   CTransaction(hash=cc5b478f153c47a63d1d9037ec53767612111be72bf2c8c1229cb333108a27db, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 5b0101062f503253482f)
+    CTxOut(nValue=10.00000000, scriptPubKey=02bf028f3575fe62c0ab97ddf99ae5)
+  vMerkleTree: cc5b478f153c47a63d1d9037ec53767612111be72bf2c8c1229cb333108a27db 
+2025-04-06 18:37:44 generated 10.00
+2025-04-06 18:37:44 keypool keep 8
+2025-04-06 18:37:44 AddToWallet cc5b478f153c47a63d1d9037ec53767612111be72bf2c8c1229cb333108a27db  new
+2025-04-06 18:37:44 NotifyTransactionChanged cc5b478f153c47a63d1d9037ec53767612111be72bf2c8c1229cb333108a27db status=0
+2025-04-06 18:37:44 updateWallet cc5b478f153c47a63d1d9037ec53767612111be72bf2c8c1229cb333108a27db 0
+2025-04-06 18:37:44    inWallet=1 inModel=0 Index=3-3 showTransaction=0 derivedStatus=0
+2025-04-06 18:37:44 Committing 1 changed transactions to coin database...
+2025-04-06 18:37:44 SetBestChain: new best=eec663ba8b81c2387f7c5e9b0ea9887a04b170c95b010bc00e6abda3aa2bec98  height=11  log2_work=23,584985  tx=12  date=2025-04-06 18:37:44 progress=1,000000
+2025-04-06 18:37:44 NotifyTransactionChanged dc4f2e9e9d061e4eeb98a25967414296dabc006a4194cb015e3d8a71ad41ac7d status=1
+2025-04-06 18:37:44 ProcessBlock: ACCEPTED
+2025-04-06 18:37:44 updateWallet dc4f2e9e9d061e4eeb98a25967414296dabc006a4194cb015e3d8a71ad41ac7d 1
+2025-04-06 18:37:44 keypool added key 109, size=101
+2025-04-06 18:37:44 keypool reserve 9
+2025-04-06 18:37:44 CreateNewBlock(): total size 1000
+2025-04-06 18:37:44 Running SpkcoinMiner with 1 transactions in block (186 bytes)
+2025-04-06 18:37:44    inWallet=1 inModel=0 Index=3-3 showTransaction=1 derivedStatus=0
+2025-04-06 18:37:46 Flushing wallet.dat
+2025-04-06 18:37:46 received getdata for: block eec663ba8b81c2387f7c5e9b0ea9887a04b170c95b010bc00e6abda3aa2bec98
+2025-04-06 18:37:46 Flushed wallet.dat 11ms
+2025-04-06 18:38:41 received block c61615c43f997b5834582289644ce18af769cb0da700fd0094a16bc8eb6c77de
+2025-04-06 18:38:41 Committing 1 changed transactions to coin database...
+2025-04-06 18:38:41 SetBestChain: new best=c61615c43f997b5834582289644ce18af769cb0da700fd0094a16bc8eb6c77de  height=12  log2_work=23,700462  tx=13  date=2025-04-06 18:38:44 progress=1,000003
+2025-04-06 18:38:41 NotifyTransactionChanged cc5b478f153c47a63d1d9037ec53767612111be72bf2c8c1229cb333108a27db status=1
+2025-04-06 18:38:41 ProcessBlock: ACCEPTED
+2025-04-06 18:38:41 updateWallet cc5b478f153c47a63d1d9037ec53767612111be72bf2c8c1229cb333108a27db 1
+2025-04-06 18:38:41    inWallet=1 inModel=0 Index=3-3 showTransaction=1 derivedStatus=0
+2025-04-06 18:38:41 CreateNewBlock(): total size 1000
+2025-04-06 18:38:41 Running SpkcoinMiner with 1 transactions in block (186 bytes)
+2025-04-06 18:39:13 received block 3197e9737426705ed1025fd3d67aa6cb76448e75941034d2520960c3c357c51d
+2025-04-06 18:39:13 Committing 1 changed transactions to coin database...
+2025-04-06 18:39:13 SetBestChain: new best=3197e9737426705ed1025fd3d67aa6cb76448e75941034d2520960c3c357c51d  height=13  log2_work=23,807377  tx=14  date=2025-04-06 18:39:16 progress=1,000002
+2025-04-06 18:39:13 ProcessBlock: ACCEPTED
+2025-04-06 18:39:13 CreateNewBlock(): total size 1000
+2025-04-06 18:39:13 Running SpkcoinMiner with 1 transactions in block (186 bytes)
+2025-04-06 18:39:39 SpkcoinMiner:
+2025-04-06 18:39:39 proof-of-work found  
+  hash: 00000df28fd61411ce2ebcfafeff0ffd4b25eff43308bd102152464ba16ca3c5  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2025-04-06 18:39:39 CBlock(hash=a885d4d075edc4307d4ada0226be04df9f5725a81a6a1d8575b61d6216eb70bb, input=020000001dc557c3c3600952d2341094758e4476cba67ad6d35f02d15e70267473e99731a7b7436d939ebda59ad233bd62bf42fd1ba4134d78022a560c41189a8b1b8ae16bcaf267f0ff0f1e84a60100, PoW=00000df28fd61411ce2ebcfafeff0ffd4b25eff43308bd102152464ba16ca3c5, ver=2, hashPrevBlock=3197e9737426705ed1025fd3d67aa6cb76448e75941034d2520960c3c357c51d, hashMerkleRoot=e18a1b8b9a18410c562a02784d13a41bfd42bf62bd33d29aa5bd9e936d43b7a7, nTime=1743964779, nBits=1e0ffff0, nNonce=108164, vtx=1)
+2025-04-06 18:39:39   CTransaction(hash=e18a1b8b9a18410c562a02784d13a41bfd42bf62bd33d29aa5bd9e936d43b7a7, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 5e0101062f503253482f)
+    CTxOut(nValue=10.00000000, scriptPubKey=02ba3e13754872d64cd4569cef5c10)
+  vMerkleTree: e18a1b8b9a18410c562a02784d13a41bfd42bf62bd33d29aa5bd9e936d43b7a7 
+2025-04-06 18:39:39 generated 10.00
+2025-04-06 18:39:39 keypool keep 9
+2025-04-06 18:39:39 AddToWallet e18a1b8b9a18410c562a02784d13a41bfd42bf62bd33d29aa5bd9e936d43b7a7  new
+2025-04-06 18:39:39 NotifyTransactionChanged e18a1b8b9a18410c562a02784d13a41bfd42bf62bd33d29aa5bd9e936d43b7a7 status=0
+2025-04-06 18:39:39 updateWallet e18a1b8b9a18410c562a02784d13a41bfd42bf62bd33d29aa5bd9e936d43b7a7 0
+2025-04-06 18:39:39    inWallet=1 inModel=0 Index=5-5 showTransaction=0 derivedStatus=0
+2025-04-06 18:39:39 Committing 1 changed transactions to coin database...
+2025-04-06 18:39:39 SetBestChain: new best=a885d4d075edc4307d4ada0226be04df9f5725a81a6a1d8575b61d6216eb70bb  height=14  log2_work=23,906913  tx=15  date=2025-04-06 18:39:39 progress=1,000000
+2025-04-06 18:39:39 ProcessBlock: ACCEPTED
+2025-04-06 18:39:39 keypool added key 110, size=101
+2025-04-06 18:39:39 keypool reserve 10
+2025-04-06 18:39:39 CreateNewBlock(): total size 1000
+2025-04-06 18:39:39 Running SpkcoinMiner with 1 transactions in block (186 bytes)
+2025-04-06 18:39:39 received getdata for: block a885d4d075edc4307d4ada0226be04df9f5725a81a6a1d8575b61d6216eb70bb
+2025-04-06 18:39:41 Flushing wallet.dat
+2025-04-06 18:39:41 Flushed wallet.dat 8ms
+2025-04-06 18:39:44 received block e010b2a7788b8cdb6b4c53c94ad773e1acba851f5ce2f4ad2b86b0b55aff131c
+2025-04-06 18:39:44 Committing 1 changed transactions to coin database...
+2025-04-06 18:39:44 SetBestChain: new best=e010b2a7788b8cdb6b4c53c94ad773e1acba851f5ce2f4ad2b86b0b55aff131c  height=15  log2_work=24,000022  tx=16  date=2025-04-06 18:39:47 progress=1,000002
+2025-04-06 18:39:44 NotifyTransactionChanged e18a1b8b9a18410c562a02784d13a41bfd42bf62bd33d29aa5bd9e936d43b7a7 status=1
+2025-04-06 18:39:44 ProcessBlock: ACCEPTED
+2025-04-06 18:39:44 updateWallet e18a1b8b9a18410c562a02784d13a41bfd42bf62bd33d29aa5bd9e936d43b7a7 1
+2025-04-06 18:39:44    inWallet=1 inModel=0 Index=5-5 showTransaction=1 derivedStatus=0
+2025-04-06 18:39:44 CreateNewBlock(): total size 1000
+2025-04-06 18:39:44 Running SpkcoinMiner with 1 transactions in block (186 bytes)
+2025-04-06 18:40:42 ResendWalletTransactions()
+2025-04-06 18:45:49 SpkcoinMiner:
+2025-04-06 18:45:49 proof-of-work found  
+  hash: 00000d3cc315272a3248f5b06a09e9a1292d23ea96f84d8927499f14a3e0a20f  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2025-04-06 18:45:49 CBlock(hash=081e5bba0a8379434278a2d59973208852ca77f84abc0a162ca03ea1858e5993, input=020000001c13ff5ab5b0862badf4e25c1f85baace173d74ac9534c6bdb8c8b78a7b210e056e1e828df098bc85c0e4c9e2f0e1e861fb6145bfd8d7a7ecca954df687773c9ddcbf267f0ff0f1e63a11100, PoW=00000d3cc315272a3248f5b06a09e9a1292d23ea96f84d8927499f14a3e0a20f, ver=2, hashPrevBlock=e010b2a7788b8cdb6b4c53c94ad773e1acba851f5ce2f4ad2b86b0b55aff131c, hashMerkleRoot=c9737768df54a9cc7e7a8dfd5b14b61f861e0e2f9e4c0e5cc88b09df28e8e156, nTime=1743965149, nBits=1e0ffff0, nNonce=1155427, vtx=1)
+2025-04-06 18:45:49   CTransaction(hash=c9737768df54a9cc7e7a8dfd5b14b61f861e0e2f9e4c0e5cc88b09df28e8e156, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 600101062f503253482f)
+    CTxOut(nValue=10.00000000, scriptPubKey=020d009a96276dbfa1635609044f93)
+  vMerkleTree: c9737768df54a9cc7e7a8dfd5b14b61f861e0e2f9e4c0e5cc88b09df28e8e156 
+2025-04-06 18:45:49 generated 10.00
+2025-04-06 18:45:49 keypool keep 10
+2025-04-06 18:45:49 AddToWallet c9737768df54a9cc7e7a8dfd5b14b61f861e0e2f9e4c0e5cc88b09df28e8e156  new
+2025-04-06 18:45:49 NotifyTransactionChanged c9737768df54a9cc7e7a8dfd5b14b61f861e0e2f9e4c0e5cc88b09df28e8e156 status=0
+2025-04-06 18:45:49 updateWallet c9737768df54a9cc7e7a8dfd5b14b61f861e0e2f9e4c0e5cc88b09df28e8e156 0
+2025-04-06 18:45:49    inWallet=1 inModel=0 Index=3-3 showTransaction=0 derivedStatus=0
+2025-04-06 18:45:49 Committing 1 changed transactions to coin database...
+2025-04-06 18:45:49 SetBestChain: new best=081e5bba0a8379434278a2d59973208852ca77f84abc0a162ca03ea1858e5993  height=16  log2_work=24,087485  tx=17  date=2025-04-06 18:45:49 progress=1,000000
+2025-04-06 18:45:49 ProcessBlock: ACCEPTED
+2025-04-06 18:45:49 keypool added key 111, size=101
+2025-04-06 18:45:49 keypool reserve 11
+2025-04-06 18:45:49 CreateNewBlock(): total size 1000
+2025-04-06 18:45:49 Running SpkcoinMiner with 1 transactions in block (187 bytes)
+2025-04-06 18:45:49 received getdata for: block 081e5bba0a8379434278a2d59973208852ca77f84abc0a162ca03ea1858e5993
+2025-04-06 18:45:51 Flushing wallet.dat
+2025-04-06 18:45:51 Flushed wallet.dat 7ms
+2025-04-06 18:46:18 SpkcoinMiner:
+2025-04-06 18:46:18 proof-of-work found  
+  hash: 00000ae85fe02855e6c86911165934ec172343d519f3f400af79e82b5a5c8927  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2025-04-06 18:46:18 CBlock(hash=8ae0a9929127bd573625b34837d0cb87255dbdf6e132fdb12968205924632b59, input=0200000093598e85a13ea02c160abc4af877ca5288207399d5a278424379830aba5b1e08d8c808a848b9d7c3c113c62dcb06b5a067906b6ec170ab5bdc21365b76f8742ffacbf267f0ff0f1ed15f0100, PoW=00000ae85fe02855e6c86911165934ec172343d519f3f400af79e82b5a5c8927, ver=2, hashPrevBlock=081e5bba0a8379434278a2d59973208852ca77f84abc0a162ca03ea1858e5993, hashMerkleRoot=2f74f8765b3621dc5bab70c16e6b9067a0b506cb2dc613c1c3d7b948a808c8d8, nTime=1743965178, nBits=1e0ffff0, nNonce=90065, vtx=1)
+2025-04-06 18:46:18   CTransaction(hash=2f74f8765b3621dc5bab70c16e6b9067a0b506cb2dc613c1c3d7b948a808c8d8, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 01110101062f503253482f)
+    CTxOut(nValue=10.00000000, scriptPubKey=0389751d528d79181b7ed3817b21f3)
+  vMerkleTree: 2f74f8765b3621dc5bab70c16e6b9067a0b506cb2dc613c1c3d7b948a808c8d8 
+2025-04-06 18:46:18 generated 10.00
+2025-04-06 18:46:18 keypool keep 11
+2025-04-06 18:46:18 AddToWallet 2f74f8765b3621dc5bab70c16e6b9067a0b506cb2dc613c1c3d7b948a808c8d8  new
+2025-04-06 18:46:18 NotifyTransactionChanged 2f74f8765b3621dc5bab70c16e6b9067a0b506cb2dc613c1c3d7b948a808c8d8 status=0
+2025-04-06 18:46:18 updateWallet 2f74f8765b3621dc5bab70c16e6b9067a0b506cb2dc613c1c3d7b948a808c8d8 0
+2025-04-06 18:46:18    inWallet=1 inModel=0 Index=1-1 showTransaction=0 derivedStatus=0
+2025-04-06 18:46:18 Committing 1 changed transactions to coin database...
+2025-04-06 18:46:18 SetBestChain: new best=8ae0a9929127bd573625b34837d0cb87255dbdf6e132fdb12968205924632b59  height=17  log2_work=24,169947  tx=18  date=2025-04-06 18:46:18 progress=1,000000
+2025-04-06 18:46:18 NotifyTransactionChanged c9737768df54a9cc7e7a8dfd5b14b61f861e0e2f9e4c0e5cc88b09df28e8e156 status=1
+2025-04-06 18:46:18 ProcessBlock: ACCEPTED
+2025-04-06 18:46:18 updateWallet c9737768df54a9cc7e7a8dfd5b14b61f861e0e2f9e4c0e5cc88b09df28e8e156 1
+2025-04-06 18:46:18 keypool added key 112, size=101
+2025-04-06 18:46:18 keypool reserve 12
+2025-04-06 18:46:18 CreateNewBlock(): total size 1000
+2025-04-06 18:46:18    inWallet=1 inModel=0 Index=3-3 showTransaction=1 derivedStatus=0
+2025-04-06 18:46:18 Running SpkcoinMiner with 1 transactions in block (187 bytes)
+2025-04-06 18:46:18 received getdata for: block 8ae0a9929127bd573625b34837d0cb87255dbdf6e132fdb12968205924632b59
+2025-04-06 18:46:20 Flushing wallet.dat
+2025-04-06 18:46:20 Flushed wallet.dat 12ms
+2025-04-06 18:47:13 received block 9aa7205cdf4e79d3472192c16c5bc6876159a591040e12f45fd80b341694fbc0
+2025-04-06 18:47:13 Committing 1 changed transactions to coin database...
+2025-04-06 18:47:13 SetBestChain: new best=9aa7205cdf4e79d3472192c16c5bc6876159a591040e12f45fd80b341694fbc0  height=18  log2_work=24,24795  tx=19  date=2025-04-06 18:47:17 progress=1,000002
+2025-04-06 18:47:13 NotifyTransactionChanged 2f74f8765b3621dc5bab70c16e6b9067a0b506cb2dc613c1c3d7b948a808c8d8 status=1
+2025-04-06 18:47:13 ProcessBlock: ACCEPTED
+2025-04-06 18:47:13 updateWallet 2f74f8765b3621dc5bab70c16e6b9067a0b506cb2dc613c1c3d7b948a808c8d8 1
+2025-04-06 18:47:13    inWallet=1 inModel=0 Index=1-1 showTransaction=1 derivedStatus=0
+2025-04-06 18:47:13 CreateNewBlock(): total size 1000
+2025-04-06 18:47:13 Running SpkcoinMiner with 1 transactions in block (187 bytes)
+2025-04-06 18:48:25 received block a65210510ad7441dafd5cbf1038bea18237ee57beac4db094157925960aead55
+2025-04-06 18:48:25 Committing 1 changed transactions to coin database...
+2025-04-06 18:48:25 SetBestChain: new best=a65210510ad7441dafd5cbf1038bea18237ee57beac4db094157925960aead55  height=19  log2_work=24,32195  tx=20  date=2025-04-06 18:48:28 progress=1,000002
+2025-04-06 18:48:25 ProcessBlock: ACCEPTED
+2025-04-06 18:48:25 CreateNewBlock(): total size 1000
+2025-04-06 18:48:25 Running SpkcoinMiner with 1 transactions in block (187 bytes)
+2025-04-06 18:48:47 ResendWalletTransactions()
+2025-04-06 18:51:55 Flushed 0 addresses to peers.dat  8ms
+2025-04-06 18:52:55 hashmeter      3 khash/s
+2025-04-06 19:06:55 Flushed 0 addresses to peers.dat  8ms
+2025-04-06 19:08:20 received block a093d067a84953d686d11ece6d902db96fdfaa9d2264abf5ae3ff0dca054153f
+2025-04-06 19:08:20 Committing 1 changed transactions to coin database...
+2025-04-06 19:08:20 SetBestChain: new best=a093d067a84953d686d11ece6d902db96fdfaa9d2264abf5ae3ff0dca054153f  height=20  log2_work=24,392339  tx=21  date=2025-04-06 19:08:23 progress=1,000002
+2025-04-06 19:08:20 ProcessBlock: ACCEPTED
+2025-04-06 19:08:20 CreateNewBlock(): total size 1000
+2025-04-06 19:08:20 Running SpkcoinMiner with 1 transactions in block (187 bytes)
+2025-04-06 19:08:27 ResendWalletTransactions()
+2025-04-06 19:14:11 received block 3b8bc73794b93d6ebe2013bfd1a8dd7f940887e9c8b46801971765733552966b
+2025-04-06 19:14:11 Committing 1 changed transactions to coin database...
+2025-04-06 19:14:11 SetBestChain: new best=3b8bc73794b93d6ebe2013bfd1a8dd7f940887e9c8b46801971765733552966b  height=21  log2_work=24,459454  tx=22  date=2025-04-06 19:14:14 progress=1,000002
+2025-04-06 19:14:11 ProcessBlock: ACCEPTED
+2025-04-06 19:14:11 CreateNewBlock(): total size 1000
+2025-04-06 19:14:11 Running SpkcoinMiner with 1 transactions in block (187 bytes)
+2025-04-06 19:15:18 received block 92f403667a6b74db6d6c42fd8adc0ec50773f170370ab4c6bc9b8eb923fe9a06
+2025-04-06 19:15:18 Committing 1 changed transactions to coin database...
+2025-04-06 19:15:18 SetBestChain: new best=92f403667a6b74db6d6c42fd8adc0ec50773f170370ab4c6bc9b8eb923fe9a06  height=22  log2_work=24,523584  tx=23  date=2025-04-06 19:14:47 progress=0,999984
+2025-04-06 19:15:18 ProcessBlock: ACCEPTED
+2025-04-06 19:15:18 CreateNewBlock(): total size 1000
+2025-04-06 19:15:18 Running SpkcoinMiner with 1 transactions in block (187 bytes)
+2025-04-06 19:15:26 received block 5d1c37d1fe7638815058c8a4683b7bbcc124b8d4ccf8c0a01a18ed2345311515
+2025-04-06 19:15:26 Committing 1 changed transactions to coin database...
+2025-04-06 19:15:26 SetBestChain: new best=5d1c37d1fe7638815058c8a4683b7bbcc124b8d4ccf8c0a01a18ed2345311515  height=23  log2_work=24,584985  tx=24  date=2025-04-06 19:15:29 progress=1,000001
+2025-04-06 19:15:26 ProcessBlock: ACCEPTED
+2025-04-06 19:15:26 CreateNewBlock(): total size 1000
+2025-04-06 19:15:26 Running SpkcoinMiner with 1 transactions in block (187 bytes)
+2025-04-06 19:15:55 SpkcoinMiner:
+2025-04-06 19:15:55 proof-of-work found  
+  hash: 00000915417bab5de68a34c3cf4c73aa1d0347bce7923e9acdd3280e029a19ca  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2025-04-06 19:15:55 CBlock(hash=289d89240e8fa556bb93190ca4042a2061c66e79170f0d450ef0e968231d204f, input=020000001515314523ed181aa0c0f8ccd4b824c1bc7b3b68a4c85850813876fed1371c5d5d03d2ce3378c0d25f63bda0974a39865218f889c21324d43fc82db44794889cebd2f267f0ff0f1ea9490100, PoW=00000915417bab5de68a34c3cf4c73aa1d0347bce7923e9acdd3280e029a19ca, ver=2, hashPrevBlock=5d1c37d1fe7638815058c8a4683b7bbcc124b8d4ccf8c0a01a18ed2345311515, hashMerkleRoot=9c889447b42dc83fd42413c289f8185286394a97a0bd635fd2c07833ced2035d, nTime=1743966955, nBits=1e0ffff0, nNonce=84393, vtx=1)
+2025-04-06 19:15:55   CTransaction(hash=9c889447b42dc83fd42413c289f8185286394a97a0bd635fd2c07833ced2035d, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 01180101062f503253482f)
+    CTxOut(nValue=10.00000000, scriptPubKey=02e1625458c3ea75b3cb152ae9d052)
+  vMerkleTree: 9c889447b42dc83fd42413c289f8185286394a97a0bd635fd2c07833ced2035d 
+2025-04-06 19:15:55 generated 10.00
+2025-04-06 19:15:55 keypool keep 12
+2025-04-06 19:15:55 AddToWallet 9c889447b42dc83fd42413c289f8185286394a97a0bd635fd2c07833ced2035d  new
+2025-04-06 19:15:55 NotifyTransactionChanged 9c889447b42dc83fd42413c289f8185286394a97a0bd635fd2c07833ced2035d status=0
+2025-04-06 19:15:55 updateWallet 9c889447b42dc83fd42413c289f8185286394a97a0bd635fd2c07833ced2035d 0
+2025-04-06 19:15:55    inWallet=1 inModel=0 Index=4-4 showTransaction=0 derivedStatus=0
+2025-04-06 19:15:55 Committing 1 changed transactions to coin database...
+2025-04-06 19:15:55 SetBestChain: new best=289d89240e8fa556bb93190ca4042a2061c66e79170f0d450ef0e968231d204f  height=24  log2_work=24,643878  tx=25  date=2025-04-06 19:15:55 progress=1,000000
+2025-04-06 19:15:55 ProcessBlock: ACCEPTED
+2025-04-06 19:15:55 keypool added key 113, size=101
+2025-04-06 19:15:55 keypool reserve 13
+2025-04-06 19:15:55 CreateNewBlock(): total size 1000
+2025-04-06 19:15:55 Running SpkcoinMiner with 1 transactions in block (187 bytes)
+2025-04-06 19:15:55 received getdata for: block 289d89240e8fa556bb93190ca4042a2061c66e79170f0d450ef0e968231d204f
+2025-04-06 19:15:57 Flushing wallet.dat
+2025-04-06 19:15:57 Flushed wallet.dat 8ms
+2025-04-06 19:18:26 received block 26f322e6c3ee584366d23556feb59143d47bb652ccc0bbc086ce02e1fb792e2f
+2025-04-06 19:18:26 Committing 1 changed transactions to coin database...
+2025-04-06 19:18:26 SetBestChain: new best=26f322e6c3ee584366d23556feb59143d47bb652ccc0bbc086ce02e1fb792e2f  height=25  log2_work=24,700462  tx=26  date=2025-04-06 19:18:30 progress=1,000002
+2025-04-06 19:18:26 NotifyTransactionChanged 9c889447b42dc83fd42413c289f8185286394a97a0bd635fd2c07833ced2035d status=1
+2025-04-06 19:18:26 ProcessBlock: ACCEPTED
+2025-04-06 19:18:26 updateWallet 9c889447b42dc83fd42413c289f8185286394a97a0bd635fd2c07833ced2035d 1
+2025-04-06 19:18:26    inWallet=1 inModel=0 Index=4-4 showTransaction=1 derivedStatus=0
+2025-04-06 19:18:26 CreateNewBlock(): total size 1000
+2025-04-06 19:18:26 Running SpkcoinMiner with 1 transactions in block (187 bytes)
+2025-04-06 19:20:33 SpkcoinMiner:
+2025-04-06 19:20:33 proof-of-work found  
+  hash: 00000266f32b7c940b4ca481532b2a83596a81f2412d9c92f58eccfefe5c2b2d  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2025-04-06 19:20:33 CBlock(hash=c7c1841baacef2db303a90d3d54bd1513bbb24952c92c57f2271182c88197c15, input=020000002f2e79fbe102ce86c0bbc0cc52b67bd44391b5fe5635d2664358eec3e622f326b295cb3effed2f12aa5acbefe5f2d273bbe27096ea189d8f5e14a6998acb57ca01d4f267f0ff0f1e08030600, PoW=00000266f32b7c940b4ca481532b2a83596a81f2412d9c92f58eccfefe5c2b2d, ver=2, hashPrevBlock=26f322e6c3ee584366d23556feb59143d47bb652ccc0bbc086ce02e1fb792e2f, hashMerkleRoot=ca57cb8a99a6145e8f9d18ea9670e2bb73d2f2e5efcb5aaa122fedff3ecb95b2, nTime=1743967233, nBits=1e0ffff0, nNonce=393992, vtx=1)
+2025-04-06 19:20:33   CTransaction(hash=ca57cb8a99a6145e8f9d18ea9670e2bb73d2f2e5efcb5aaa122fedff3ecb95b2, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 011a0101062f503253482f)
+    CTxOut(nValue=10.00000000, scriptPubKey=026c0828cafd6e72ec9b769dc69950)
+  vMerkleTree: ca57cb8a99a6145e8f9d18ea9670e2bb73d2f2e5efcb5aaa122fedff3ecb95b2 
+2025-04-06 19:20:33 generated 10.00
+2025-04-06 19:20:34 keypool keep 13
+2025-04-06 19:20:34 AddToWallet ca57cb8a99a6145e8f9d18ea9670e2bb73d2f2e5efcb5aaa122fedff3ecb95b2  new
+2025-04-06 19:20:34 NotifyTransactionChanged ca57cb8a99a6145e8f9d18ea9670e2bb73d2f2e5efcb5aaa122fedff3ecb95b2 status=0
+2025-04-06 19:20:34 updateWallet ca57cb8a99a6145e8f9d18ea9670e2bb73d2f2e5efcb5aaa122fedff3ecb95b2 0
+2025-04-06 19:20:34    inWallet=1 inModel=0 Index=6-6 showTransaction=0 derivedStatus=0
+2025-04-06 19:20:34 Committing 1 changed transactions to coin database...
+2025-04-06 19:20:34 SetBestChain: new best=c7c1841baacef2db303a90d3d54bd1513bbb24952c92c57f2271182c88197c15  height=26  log2_work=24,75491  tx=27  date=2025-04-06 19:20:33 progress=1,000000
+2025-04-06 19:20:34 ProcessBlock: ACCEPTED
+2025-04-06 19:20:34 keypool added key 114, size=101
+2025-04-06 19:20:34 keypool reserve 14
+2025-04-06 19:20:34 CreateNewBlock(): total size 1000
+2025-04-06 19:20:34 Running SpkcoinMiner with 1 transactions in block (187 bytes)
+2025-04-06 19:20:34 received getdata for: block c7c1841baacef2db303a90d3d54bd1513bbb24952c92c57f2271182c88197c15
+2025-04-06 19:20:36 Flushing wallet.dat
+2025-04-06 19:20:36 Flushed wallet.dat 9ms
+2025-04-06 19:21:55 Flushed 0 addresses to peers.dat  5ms
+2025-04-06 19:22:30 SpkcoinMiner:
+2025-04-06 19:22:30 proof-of-work found  
+  hash: 00000398bfe400944106b42e488e698a74b356423211a6259e62cf1d45d495d1  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2025-04-06 19:22:30 CBlock(hash=9e12928fd2f9c48e0ba8d1296a1aeba0d406e45c55a353296c817660cf3e64d3, input=02000000157c19882c1871227fc5922c9524bb3b51d14bd5d3903a30dbf2ceaa1b84c1c70b46451abe8bec2e0b153367d7603d18572e3efdeb1c27d7c43447d8f48a692b76d4f267f0ff0f1e6b450600, PoW=00000398bfe400944106b42e488e698a74b356423211a6259e62cf1d45d495d1, ver=2, hashPrevBlock=c7c1841baacef2db303a90d3d54bd1513bbb24952c92c57f2271182c88197c15, hashMerkleRoot=2b698af4d84734c4d7271cebfd3e2e57183d60d76733150b2eec8bbe1a45460b, nTime=1743967350, nBits=1e0ffff0, nNonce=410987, vtx=1)
+2025-04-06 19:22:30   CTransaction(hash=2b698af4d84734c4d7271cebfd3e2e57183d60d76733150b2eec8bbe1a45460b, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 011b0101062f503253482f)
+    CTxOut(nValue=10.00000000, scriptPubKey=02993e70e3a22f7eeba77a49e083ca)
+  vMerkleTree: 2b698af4d84734c4d7271cebfd3e2e57183d60d76733150b2eec8bbe1a45460b 
+2025-04-06 19:22:30 generated 10.00
+2025-04-06 19:22:30 keypool keep 14
+2025-04-06 19:22:30 AddToWallet 2b698af4d84734c4d7271cebfd3e2e57183d60d76733150b2eec8bbe1a45460b  new
+2025-04-06 19:22:30 NotifyTransactionChanged 2b698af4d84734c4d7271cebfd3e2e57183d60d76733150b2eec8bbe1a45460b status=0
+2025-04-06 19:22:30 updateWallet 2b698af4d84734c4d7271cebfd3e2e57183d60d76733150b2eec8bbe1a45460b 0
+2025-04-06 19:22:30    inWallet=1 inModel=0 Index=1-1 showTransaction=0 derivedStatus=0
+2025-04-06 19:22:30 Committing 1 changed transactions to coin database...
+2025-04-06 19:22:30 SetBestChain: new best=9e12928fd2f9c48e0ba8d1296a1aeba0d406e45c55a353296c817660cf3e64d3  height=27  log2_work=24,807377  tx=28  date=2025-04-06 19:22:30 progress=1,000000
+2025-04-06 19:22:30 NotifyTransactionChanged ca57cb8a99a6145e8f9d18ea9670e2bb73d2f2e5efcb5aaa122fedff3ecb95b2 status=1
+2025-04-06 19:22:30 ProcessBlock: ACCEPTED
+2025-04-06 19:22:30 updateWallet ca57cb8a99a6145e8f9d18ea9670e2bb73d2f2e5efcb5aaa122fedff3ecb95b2 1
+2025-04-06 19:22:30 keypool added key 115, size=101
+2025-04-06 19:22:30 keypool reserve 15
+2025-04-06 19:22:30 CreateNewBlock(): total size 1000
+2025-04-06 19:22:30 Running SpkcoinMiner with 1 transactions in block (187 bytes)
+2025-04-06 19:22:30    inWallet=1 inModel=0 Index=6-6 showTransaction=1 derivedStatus=0
+2025-04-06 19:22:30 received getdata for: block 9e12928fd2f9c48e0ba8d1296a1aeba0d406e45c55a353296c817660cf3e64d3
+2025-04-06 19:22:33 NotifyAddressBookChanged STa5XePK6uQ8DPxEn4s5eiKWXfXFhTVs7t PartA isMine=0 status=0
+2025-04-06 19:22:35 Flushing wallet.dat
+2025-04-06 19:22:35 Flushed wallet.dat 8ms
+2025-04-06 19:22:45 received block d9050a585d6b247f78b09d7795bb3576f9b774f8a680d77a7c862836416ff4b5
+2025-04-06 19:22:45 Committing 1 changed transactions to coin database...
+2025-04-06 19:22:45 SetBestChain: new best=d9050a585d6b247f78b09d7795bb3576f9b774f8a680d77a7c862836416ff4b5  height=28  log2_work=24,858003  tx=29  date=2025-04-06 19:22:49 progress=1,000002
+2025-04-06 19:22:45 NotifyTransactionChanged 2b698af4d84734c4d7271cebfd3e2e57183d60d76733150b2eec8bbe1a45460b status=1
+2025-04-06 19:22:45 ProcessBlock: ACCEPTED
+2025-04-06 19:22:45 updateWallet 2b698af4d84734c4d7271cebfd3e2e57183d60d76733150b2eec8bbe1a45460b 1
+2025-04-06 19:22:45    inWallet=1 inModel=0 Index=1-1 showTransaction=1 derivedStatus=0
+2025-04-06 19:22:45 CreateNewBlock(): total size 1000
+2025-04-06 19:22:45 Running SpkcoinMiner with 1 transactions in block (187 bytes)
+2025-04-06 19:22:58 hashmeter      3 khash/s
+2025-04-06 19:23:09 AddToWallet a128b8893c47fafe2eb19fd75db9ba25e62483c93ef8c2d3452f5a101dc419fe  new
+2025-04-06 19:23:09 NotifyTransactionChanged a128b8893c47fafe2eb19fd75db9ba25e62483c93ef8c2d3452f5a101dc419fe status=0
+2025-04-06 19:23:09 AcceptToMemoryPool: 192.168.56.101:2333 /Satoshi:0.8.7.4/ : accepted a128b8893c47fafe2eb19fd75db9ba25e62483c93ef8c2d3452f5a101dc419fe (poolsz 1)
+2025-04-06 19:23:09 updateWallet a128b8893c47fafe2eb19fd75db9ba25e62483c93ef8c2d3452f5a101dc419fe 0
+2025-04-06 19:23:09    inWallet=1 inModel=0 Index=6-6 showTransaction=1 derivedStatus=0
+2025-04-06 19:23:11 Flushing wallet.dat
+2025-04-06 19:23:11 Flushed wallet.dat 10ms
+2025-04-06 19:23:30 SelectCoins() best subset: 10.00 10.00 total 20.00
+2025-04-06 19:23:30 keypool added key 116, size=101
+2025-04-06 19:23:30 keypool reserve 16
+2025-04-06 19:23:31 CommitTransaction:
+CTransaction(hash=19ef3f1b8d042cebd42ed789104c48a29dc2eee01582e71f50c0d45ec94cdf37, ver=1, vin.size=2, vout.size=2, nLockTime=0)
+    CTxIn(COutPoint(e407d42e61bc9802d8dd39aefc88144d4d7b4af738e81a62c279a1752470a805, 0), scriptSig=3044022055ffbe8a200d83b0)
+    CTxIn(COutPoint(8a22bde0f7f41c754fb0f39fabecc202c68ab6d46ffb13e327562b1a650b9265, 0), scriptSig=30460221008ef1aa74d9abed)
+    CTxOut(nValue=10.00000000, scriptPubKey=OP_DUP OP_HASH160 44db29e697da)
+    CTxOut(nValue=9.99900000, scriptPubKey=OP_DUP OP_HASH160 9ad677c9b411)
+keypool keep 16
+2025-04-06 19:23:31 AddToWallet 19ef3f1b8d042cebd42ed789104c48a29dc2eee01582e71f50c0d45ec94cdf37  new
+2025-04-06 19:23:31 WalletUpdateSpent found spent coin 10.00bc e407d42e61bc9802d8dd39aefc88144d4d7b4af738e81a62c279a1752470a805
+2025-04-06 19:23:31 NotifyTransactionChanged e407d42e61bc9802d8dd39aefc88144d4d7b4af738e81a62c279a1752470a805 status=1
+2025-04-06 19:23:31 WalletUpdateSpent found spent coin 10.00bc 8a22bde0f7f41c754fb0f39fabecc202c68ab6d46ffb13e327562b1a650b9265
+2025-04-06 19:23:31 NotifyTransactionChanged 8a22bde0f7f41c754fb0f39fabecc202c68ab6d46ffb13e327562b1a650b9265 status=1
+2025-04-06 19:23:31 NotifyTransactionChanged 19ef3f1b8d042cebd42ed789104c48a29dc2eee01582e71f50c0d45ec94cdf37 status=0
+2025-04-06 19:23:31 NotifyTransactionChanged e407d42e61bc9802d8dd39aefc88144d4d7b4af738e81a62c279a1752470a805 status=1
+2025-04-06 19:23:31 NotifyTransactionChanged 8a22bde0f7f41c754fb0f39fabecc202c68ab6d46ffb13e327562b1a650b9265 status=1
+2025-04-06 19:23:31 AddToWallet 19ef3f1b8d042cebd42ed789104c48a29dc2eee01582e71f50c0d45ec94cdf37  
+2025-04-06 19:23:31 NotifyTransactionChanged 19ef3f1b8d042cebd42ed789104c48a29dc2eee01582e71f50c0d45ec94cdf37 status=1
+2025-04-06 19:23:31 Relaying wtx 19ef3f1b8d042cebd42ed789104c48a29dc2eee01582e71f50c0d45ec94cdf37
+2025-04-06 19:23:31 updateWallet e407d42e61bc9802d8dd39aefc88144d4d7b4af738e81a62c279a1752470a805 1
+2025-04-06 19:23:31    inWallet=1 inModel=1 Index=12-13 showTransaction=1 derivedStatus=1
+2025-04-06 19:23:31 updateWallet 8a22bde0f7f41c754fb0f39fabecc202c68ab6d46ffb13e327562b1a650b9265 1
+2025-04-06 19:23:31    inWallet=1 inModel=1 Index=4-5 showTransaction=1 derivedStatus=1
+2025-04-06 19:23:31 updateWallet 19ef3f1b8d042cebd42ed789104c48a29dc2eee01582e71f50c0d45ec94cdf37 0
+2025-04-06 19:23:31    inWallet=1 inModel=0 Index=1-1 showTransaction=1 derivedStatus=0
+2025-04-06 19:23:31 updateWallet e407d42e61bc9802d8dd39aefc88144d4d7b4af738e81a62c279a1752470a805 1
+2025-04-06 19:23:31    inWallet=1 inModel=1 Index=13-14 showTransaction=1 derivedStatus=1
+2025-04-06 19:23:31 updateWallet 8a22bde0f7f41c754fb0f39fabecc202c68ab6d46ffb13e327562b1a650b9265 1
+2025-04-06 19:23:31    inWallet=1 inModel=1 Index=5-6 showTransaction=1 derivedStatus=1
+2025-04-06 19:23:31 updateWallet 19ef3f1b8d042cebd42ed789104c48a29dc2eee01582e71f50c0d45ec94cdf37 1
+2025-04-06 19:23:31    inWallet=1 inModel=1 Index=1-2 showTransaction=1 derivedStatus=1
+2025-04-06 19:23:31 received getdata for: tx 19ef3f1b8d042cebd42ed789104c48a29dc2eee01582e71f50c0d45ec94cdf37
+2025-04-06 19:23:33 Flushing wallet.dat
+2025-04-06 19:23:33 Flushed wallet.dat 10ms
+2025-04-06 19:23:46 CreateNewBlock(): total size 1611
+2025-04-06 19:23:46 Running SpkcoinMiner with 3 transactions in block (798 bytes)
+2025-04-06 19:24:22 SpkcoinMiner:
+2025-04-06 19:24:22 proof-of-work found  
+  hash: 000004a5ff493555ce867e152ab111a7b24f75d02b6a494905bd17352371c3fa  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2025-04-06 19:24:22 CBlock(hash=744a90b197e85241f32b8af24db9ec3c880a7d9e1b3a71dc486da13bd6ad3970, input=02000000b5f46f413628867c7ad780a6f874b7f97635bb95779db0787f246b5d580a05d985dda7f8e84c2c98f006f2008e2d21d9acfe4e67ba9ea9c90295e86e6c8ef1a1e6d4f267f0ff0f1e5fb40100, PoW=000004a5ff493555ce867e152ab111a7b24f75d02b6a494905bd17352371c3fa, ver=2, hashPrevBlock=d9050a585d6b247f78b09d7795bb3576f9b774f8a680d77a7c862836416ff4b5, hashMerkleRoot=a1f18e6c6ee89502c9a99eba674efeacd9212d8e00f206f0982c4ce8f8a7dd85, nTime=1743967462, nBits=1e0ffff0, nNonce=111711, vtx=3)
+2025-04-06 19:24:22   CTransaction(hash=0fed2b7f8f950ef3b7b65786329b7aaa6a26b8e2a9e1c8100ea8112305895215, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 011d0102062f503253482f)
+    CTxOut(nValue=10.00200000, scriptPubKey=03ef6bcbf6019d91b754f1176fdcf5)
+  CTransaction(hash=a128b8893c47fafe2eb19fd75db9ba25e62483c93ef8c2d3452f5a101dc419fe, ver=1, vin.size=2, vout.size=2, nLockTime=0)
+    CTxIn(COutPoint(7f0f0f6773c099537fc01380afbc7c1370db70e41ac1485d8442e6ee804903e1, 0), scriptSig=304402200f1e6cdd56fbc6dc)
+    CTxIn(COutPoint(50966e694b37424e59b735f61b90db2fbf6572400990db3a204699c2d577a0ee, 0), scriptSig=3045022100a61d00c747670e)
+    CTxOut(nValue=9.99900000, scriptPubKey=OP_DUP OP_HASH160 5ac656771c9c)
+    CTxOut(nValue=10.00000000, scriptPubKey=OP_DUP OP_HASH160 a2b1b7188967)
+  CTransaction(hash=19ef3f1b8d042cebd42ed789104c48a29dc2eee01582e71f50c0d45ec94cdf37, ver=1, vin.size=2, vout.size=2, nLockTime=0)
+    CTxIn(COutPoint(e407d42e61bc9802d8dd39aefc88144d4d7b4af738e81a62c279a1752470a805, 0), scriptSig=3044022055ffbe8a200d83b0)
+    CTxIn(COutPoint(8a22bde0f7f41c754fb0f39fabecc202c68ab6d46ffb13e327562b1a650b9265, 0), scriptSig=30460221008ef1aa74d9abed)
+    CTxOut(nValue=10.00000000, scriptPubKey=OP_DUP OP_HASH160 44db29e697da)
+    CTxOut(nValue=9.99900000, scriptPubKey=OP_DUP OP_HASH160 9ad677c9b411)
+  vMerkleTree: 0fed2b7f8f950ef3b7b65786329b7aaa6a26b8e2a9e1c8100ea8112305895215 a128b8893c47fafe2eb19fd75db9ba25e62483c93ef8c2d3452f5a101dc419fe 19ef3f1b8d042cebd42ed789104c48a29dc2eee01582e71f50c0d45ec94cdf37 5887dd19230a7f8f8d78d055c32f2a3a3a969abb936c48fd6760f28b83917ea1 e69c8d571980faa3fe68aae59eba48aa8260a5fcaff47cdaa118de045b01124b a1f18e6c6ee89502c9a99eba674efeacd9212d8e00f206f0982c4ce8f8a7dd85 
+2025-04-06 19:24:22 generated 10.002
+2025-04-06 19:24:23 keypool keep 15
+2025-04-06 19:24:23 AddToWallet 0fed2b7f8f950ef3b7b65786329b7aaa6a26b8e2a9e1c8100ea8112305895215  new
+2025-04-06 19:24:23 NotifyTransactionChanged 0fed2b7f8f950ef3b7b65786329b7aaa6a26b8e2a9e1c8100ea8112305895215 status=0
+2025-04-06 19:24:23 AddToWallet a128b8893c47fafe2eb19fd75db9ba25e62483c93ef8c2d3452f5a101dc419fe  update
+2025-04-06 19:24:23 updateWallet 0fed2b7f8f950ef3b7b65786329b7aaa6a26b8e2a9e1c8100ea8112305895215 0
+2025-04-06 19:24:23 NotifyTransactionChanged a128b8893c47fafe2eb19fd75db9ba25e62483c93ef8c2d3452f5a101dc419fe status=1
+2025-04-06 19:24:23 AddToWallet 19ef3f1b8d042cebd42ed789104c48a29dc2eee01582e71f50c0d45ec94cdf37  update
+2025-04-06 19:24:23 NotifyTransactionChanged 19ef3f1b8d042cebd42ed789104c48a29dc2eee01582e71f50c0d45ec94cdf37 status=1
+2025-04-06 19:24:23    inWallet=1 inModel=0 Index=1-1 showTransaction=0 derivedStatus=0
+2025-04-06 19:24:23 updateWallet a128b8893c47fafe2eb19fd75db9ba25e62483c93ef8c2d3452f5a101dc419fe 1
+2025-04-06 19:24:23    inWallet=1 inModel=1 Index=7-8 showTransaction=1 derivedStatus=1
+2025-04-06 19:24:23 updateWallet 19ef3f1b8d042cebd42ed789104c48a29dc2eee01582e71f50c0d45ec94cdf37 1
+2025-04-06 19:24:23    inWallet=1 inModel=1 Index=1-2 showTransaction=1 derivedStatus=1
+2025-04-06 19:24:23 Committing 7 changed transactions to coin database...
+2025-04-06 19:24:23 SetBestChain: new best=744a90b197e85241f32b8af24db9ec3c880a7d9e1b3a71dc486da13bd6ad3970  height=29  log2_work=24,906913  tx=32  date=2025-04-06 19:24:22 progress=1,000000
+2025-04-06 19:24:23 ProcessBlock: ACCEPTED
+2025-04-06 19:24:23 keypool added key 117, size=101
+2025-04-06 19:24:23 keypool reserve 17
+2025-04-06 19:24:23 CreateNewBlock(): total size 1000
+2025-04-06 19:24:23 Running SpkcoinMiner with 1 transactions in block (187 bytes)
+2025-04-06 19:24:23 received getdata for: block 744a90b197e85241f32b8af24db9ec3c880a7d9e1b3a71dc486da13bd6ad3970
+2025-04-06 19:24:25 Flushing wallet.dat
+2025-04-06 19:24:25 Flushed wallet.dat 7ms
+2025-04-06 19:25:11 received block 6d8ba0ac7b0e09e41c5d4b8557aefbccd39df1c7bce2791e5f61c05a4ab7dd9e
+2025-04-06 19:25:11 Committing 1 changed transactions to coin database...
+2025-04-06 19:25:11 SetBestChain: new best=6d8ba0ac7b0e09e41c5d4b8557aefbccd39df1c7bce2791e5f61c05a4ab7dd9e  height=30  log2_work=24,954218  tx=33  date=2025-04-06 19:25:14 progress=1,000001
+2025-04-06 19:25:11 NotifyTransactionChanged 0fed2b7f8f950ef3b7b65786329b7aaa6a26b8e2a9e1c8100ea8112305895215 status=1
+2025-04-06 19:25:11 ProcessBlock: ACCEPTED
+2025-04-06 19:25:11 updateWallet 0fed2b7f8f950ef3b7b65786329b7aaa6a26b8e2a9e1c8100ea8112305895215 1
+2025-04-06 19:25:11    inWallet=1 inModel=0 Index=1-1 showTransaction=1 derivedStatus=0
+2025-04-06 19:25:11 CreateNewBlock(): total size 1000
+2025-04-06 19:25:11 Running SpkcoinMiner with 1 transactions in block (187 bytes)
+2025-04-06 19:25:12 SpkcoinMiner:
+2025-04-06 19:25:12 proof-of-work found  
+  hash: 00000febfc6d949e0a437147bf36e5d1b9a458b660639339a731b2f28e4b5b53  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2025-04-06 19:25:12 CBlock(hash=8524ff956a921039bf8cc9a963a64771f875fc63d648ab42fc0b5ad23c22c2a7, input=020000009eddb74a5ac0615f1e79e2bcc7f19dd3ccfbae57854b5d1ce4090e7baca08b6d72a2d9f20ee15d5bc9166a2c48865493fd0eddc37ededb5d450a552fd143b3fc18d5f267f0ff0f1e210b0000, PoW=00000febfc6d949e0a437147bf36e5d1b9a458b660639339a731b2f28e4b5b53, ver=2, hashPrevBlock=6d8ba0ac7b0e09e41c5d4b8557aefbccd39df1c7bce2791e5f61c05a4ab7dd9e, hashMerkleRoot=fcb343d12f550a455ddbde7ec3dd0efd935486482c6a16c95b5de10ef2d9a272, nTime=1743967512, nBits=1e0ffff0, nNonce=2849, vtx=1)
+2025-04-06 19:25:12   CTransaction(hash=fcb343d12f550a455ddbde7ec3dd0efd935486482c6a16c95b5de10ef2d9a272, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 011f0101062f503253482f)
+    CTxOut(nValue=10.00000000, scriptPubKey=035838a1a6f9afb73dd4168ddb2080)
+  vMerkleTree: fcb343d12f550a455ddbde7ec3dd0efd935486482c6a16c95b5de10ef2d9a272 
+2025-04-06 19:25:12 generated 10.00
+2025-04-06 19:25:12 keypool keep 17
+2025-04-06 19:25:12 AddToWallet fcb343d12f550a455ddbde7ec3dd0efd935486482c6a16c95b5de10ef2d9a272  new
+2025-04-06 19:25:12 NotifyTransactionChanged fcb343d12f550a455ddbde7ec3dd0efd935486482c6a16c95b5de10ef2d9a272 status=0
+2025-04-06 19:25:12 updateWallet fcb343d12f550a455ddbde7ec3dd0efd935486482c6a16c95b5de10ef2d9a272 0
+2025-04-06 19:25:12    inWallet=1 inModel=0 Index=16-16 showTransaction=0 derivedStatus=0
+2025-04-06 19:25:12 Committing 1 changed transactions to coin database...
+2025-04-06 19:25:12 SetBestChain: new best=8524ff956a921039bf8cc9a963a64771f875fc63d648ab42fc0b5ad23c22c2a7  height=31  log2_work=25,000022  tx=34  date=2025-04-06 19:25:12 progress=1,000000
+2025-04-06 19:25:12 ProcessBlock: ACCEPTED
+2025-04-06 19:25:12 keypool added key 118, size=101
+2025-04-06 19:25:12 keypool reserve 18
+2025-04-06 19:25:12 CreateNewBlock(): total size 1000
+2025-04-06 19:25:12 Running SpkcoinMiner with 1 transactions in block (187 bytes)
+2025-04-06 19:25:12 received getdata for: block 8524ff956a921039bf8cc9a963a64771f875fc63d648ab42fc0b5ad23c22c2a7
+2025-04-06 19:25:14 Flushing wallet.dat
+2025-04-06 19:25:14 Flushed wallet.dat 8ms
